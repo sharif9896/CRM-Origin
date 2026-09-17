@@ -180,6 +180,12 @@ async function main() {
  await expect(page.locator('.global-search-results a').first()).toBeVisible();
  await page.locator('.global-search-results a').first().click();await page.waitForURL('**/property-details/**');
  console.log('PASS global search to property details');
+ await expect(page.locator('.property-gallery-main img').first()).toBeVisible();await expect(page.getByRole('heading',{name:'Property Details',exact:true})).toBeVisible();
+ await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));await expect(page.getByRole('button',{name:'Back to top',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Back to top',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.scrollY)).toBeLessThan(20);
+ await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));const nextProperty=page.locator('h2').filter({hasText:'Similar Properties'}).locator('..').locator('a').first();await expect(nextProperty).toBeVisible();
+ const previousPropertyUrl=page.url();await nextProperty.click();await expect.poll(()=>page.url()).not.toBe(previousPropertyUrl);await expect.poll(()=>page.evaluate(()=>window.scrollY)).toBeLessThan(20);await expect(page.locator('.property-gallery-main img').first()).toBeVisible();
+ console.log('PASS property gallery, route scroll reset, and back-to-top control');
  const artifacts=path.resolve(__dirname,'../../artifacts');fs.mkdirSync(artifacts,{recursive:true});
  await page.goto('http://localhost:5001/reports');await page.waitForTimeout(1000);await page.screenshot({path:path.join(artifacts,'reports-desktop.png'),fullPage:true});
  await page.goto('http://localhost:5001/payments');await page.waitForTimeout(700);await page.screenshot({path:path.join(artifacts,'payments-desktop.png'),fullPage:true});

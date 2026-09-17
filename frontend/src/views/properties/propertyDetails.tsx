@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -50,7 +50,8 @@ const PropertyDetails = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const [thumbs, setThumbs] = useState<SwiperClass | null>(null);
+  const [thumbs, setThumbs] = useState<{ propertyId: string; swiper: SwiperClass } | null>(null);
+  const [showBackToTop, setShowBackToTop] = useState(false);
   const [visitDate, setVisitDate] = useState<Nullable<Date>>(null);
   const [visitTime, setVisitTime] = useState("10:00");
   const [visitName, setVisitName] = useState(user?.name || "");
@@ -59,6 +60,21 @@ const PropertyDetails = () => {
   const [visitMessage, setVisitMessage] = useState("");
   const [visitBusy, setVisitBusy] = useState(false);
   const [visitResult, setVisitResult] = useState<{ kind: "success" | "error"; message: string } | null>(null);
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [id]);
+
+  useEffect(() => {
+    const handleScroll = () => setShowBackToTop(window.scrollY > 520);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, left: 0, behavior: reduceMotion ? "auto" : "smooth" });
+  };
 
   const handleVisitRequest = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -124,7 +140,7 @@ const PropertyDetails = () => {
     };
   }, [id]);
 
-  if (loading) {
+  if (loading || (id && property?.id !== id)) {
     return (
       <div className="p-3 lg:py-6 lg:px-0 flex items-center justify-center min-h-[40vh]">
         <div className="animate-spin rounded-full h-8 w-8 border-2 border-primary border-t-transparent" />
@@ -215,10 +231,16 @@ const PropertyDetails = () => {
           <div className={`${CARD} mb-4 lg:mb-6`}>
             <div className="relative mb-3">
               <Swiper
+                key={`gallery-main-${property.id}`}
                 modules={[Navigation, Thumbs]}
                 spaceBetween={10}
                 navigation
-                thumbs={{ swiper: thumbs && !thumbs.destroyed ? thumbs : null }}
+                thumbs={{
+                  swiper:
+                    thumbs?.propertyId === property.id && !thumbs.swiper.destroyed
+                      ? thumbs.swiper
+                      : null,
+                }}
                 className="property-gallery-main rounded-lg overflow-hidden"
               >
                 {gallery.map((src, i) => (
@@ -252,8 +274,9 @@ const PropertyDetails = () => {
 
             {gallery.length > 1 && (
               <Swiper
+                key={`gallery-thumbs-${property.id}`}
                 modules={[FreeMode, Thumbs]}
-                onSwiper={setThumbs}
+                onSwiper={(swiper) => setThumbs({ propertyId: property.id, swiper })}
                 spaceBetween={12}
                 slidesPerView={4}
                 freeMode
@@ -464,6 +487,19 @@ const PropertyDetails = () => {
             ))}
           </div>
         </div>
+      )}
+
+      {showBackToTop && (
+        <button
+          type="button"
+          onClick={scrollToTop}
+          aria-label="Back to top"
+          title="Back to top"
+          className="fixed bottom-5 right-5 lg:bottom-8 lg:right-8 z-40 inline-flex items-center gap-2 rounded-full bg-primary text-white px-4 py-3 text-sm font-semibold shadow-lg hover:bg-primary-hover hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary transition cursor-pointer"
+        >
+          <i className="icon-arrow-up" aria-hidden="true" />
+          <span className="hidden sm:inline">Back to top</span>
+        </button>
       )}
     </div>
   );
