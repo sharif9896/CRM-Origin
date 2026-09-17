@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Mariana Luxury Villa",
+    "price": "$850,000",
+    "value": 850000,
+    "stage": "New",
+    "agent": "Jennifer",
+    "avatar": "assets/img/avatar/avatar-02.jpg",
+    "customer": "Alexander Kenn",
+    "closeDate": {
+      "$date": "2026-08-12T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Sunset Beach House",
+    "price": "$725,000",
+    "value": 725000,
+    "stage": "New",
+    "agent": "Gabriella",
+    "avatar": "assets/img/avatar/avatar-03.jpg",
+    "customer": "Sarah Jenkins",
+    "closeDate": {
+      "$date": "2026-08-19T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Downtown Penthouse",
+    "price": "$1.2M",
+    "value": 1200000,
+    "stage": "New",
+    "agent": "Christopher",
+    "avatar": "assets/img/avatar/avatar-04.jpg",
+    "customer": "Raj Patel",
+    "closeDate": {
+      "$date": "2026-08-24T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Hillcrest Manor",
+    "price": "$2.1M",
+    "value": 2100000,
+    "stage": "Negotiation",
+    "agent": "Penelope",
+    "avatar": "assets/img/avatar/avatar-05.jpg",
+    "customer": "Emily Carter",
+    "closeDate": {
+      "$date": "2026-08-02T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Riverside Plaza",
+    "price": "$1.5M",
+    "value": 1500000,
+    "stage": "Negotiation",
+    "agent": "Daniel",
+    "avatar": "assets/img/avatar/avatar-06.jpg",
+    "customer": "Victor Moreau",
+    "closeDate": {
+      "$date": "2026-08-08T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Oceanview Estates",
+    "price": "$1.8M",
+    "value": 1800000,
+    "stage": "Negotiation",
+    "agent": "Olivia",
+    "avatar": "assets/img/avatar/avatar-07.jpg",
+    "customer": "Leila Hassan",
+    "closeDate": {
+      "$date": "2026-08-15T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Palm Residency",
+    "price": "$2.5M",
+    "value": 2500000,
+    "stage": "Due Diligence",
+    "agent": "Jennifer",
+    "avatar": "assets/img/avatar/avatar-02.jpg",
+    "customer": "Kevin O'Brien",
+    "closeDate": {
+      "$date": "2026-07-29T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Urban Heights",
+    "price": "$3.2M",
+    "value": 3200000,
+    "stage": "Due Diligence",
+    "agent": "Gabriella",
+    "avatar": "assets/img/avatar/avatar-03.jpg",
+    "customer": "Yuki Sato",
+    "closeDate": {
+      "$date": "2026-08-05T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Garden District",
+    "price": "$2.8M",
+    "value": 2800000,
+    "stage": "Due Diligence",
+    "agent": "Christopher",
+    "avatar": "assets/img/avatar/avatar-04.jpg",
+    "customer": "Miguel Santos",
+    "closeDate": {
+      "$date": "2026-08-12T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Lakeside Villa",
+    "price": "$1.8M",
+    "value": 1800000,
+    "stage": "Won",
+    "agent": "Penelope",
+    "avatar": "assets/img/avatar/avatar-05.jpg",
+    "customer": "Clara Hoffmann",
+    "closeDate": {
+      "$date": "2026-07-11T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Heritage House",
+    "price": "$2.2M",
+    "value": 2200000,
+    "stage": "Won",
+    "agent": "Daniel",
+    "avatar": "assets/img/avatar/avatar-06.jpg",
+    "customer": "Andre Silva",
+    "closeDate": {
+      "$date": "2026-07-03T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Summit Estate",
+    "price": "$2M",
+    "value": 2000000,
+    "stage": "Won",
+    "agent": "Olivia",
+    "avatar": "assets/img/avatar/avatar-07.jpg",
+    "customer": "Nadia Rahman",
+    "closeDate": {
+      "$date": "2026-06-27T00:00:00.000Z"
+    }
+  }
+]

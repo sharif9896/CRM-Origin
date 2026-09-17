@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Property Viewing — Downtown Penthouse",
+    "location": "Crestview Penthouse, Beverly Hills",
+    "when": {
+      "$date": "2026-09-03T14:00:00.000Z"
+    },
+    "duration": "30 mins",
+    "client": "Marcus Johnson",
+    "avatar": "assets/img/avatar/avatar-01.jpg",
+    "status": "Confirmed",
+    "icon": "icon-home"
+  },
+  {
+    "title": "Contract Signing — Sunset Manor",
+    "location": "Head Office, Los Angeles",
+    "when": {
+      "$date": "2026-09-03T16:00:00.000Z"
+    },
+    "duration": "1 hr",
+    "client": "Sarah Jenkins",
+    "avatar": "assets/img/avatar/avatar-03.jpg",
+    "status": "Confirmed",
+    "icon": "icon-file-text"
+  },
+  {
+    "title": "Valuation Visit — Oakwood Apartment",
+    "location": "Oakwood Apartment, Pasadena",
+    "when": {
+      "$date": "2026-09-04T10:00:00.000Z"
+    },
+    "duration": "1 hr",
+    "client": "Raj Patel",
+    "avatar": "assets/img/avatar/avatar-04.jpg",
+    "status": "Pending",
+    "icon": "icon-ruler"
+  },
+  {
+    "title": "Client Consultation — Budget Review",
+    "location": "Video Call",
+    "when": {
+      "$date": "2026-09-04T13:00:00.000Z"
+    },
+    "duration": "45 mins",
+    "client": "Emily Carter",
+    "avatar": "assets/img/avatar/avatar-05.jpg",
+    "status": "Confirmed",
+    "icon": "icon-video"
+  },
+  {
+    "title": "Property Viewing — Willow Creek Villa",
+    "location": "Willow Creek Villa, Malibu",
+    "when": {
+      "$date": "2026-09-07T11:00:00.000Z"
+    },
+    "duration": "1 hr",
+    "client": "Victor Moreau",
+    "avatar": "assets/img/avatar/avatar-06.jpg",
+    "status": "Pending",
+    "icon": "icon-home"
+  },
+  {
+    "title": "Handover — Elm Street Residence",
+    "location": "Elm Street Residence, Burbank",
+    "when": {
+      "$date": "2026-08-31T09:00:00.000Z"
+    },
+    "duration": "1 hr",
+    "client": "Miguel Santos",
+    "avatar": "assets/img/avatar/avatar-09.jpg",
+    "status": "Completed",
+    "icon": "icon-key"
+  },
+  {
+    "title": "Open House — Marina Bay Penthouse",
+    "location": "Marina Bay, Marina del Rey",
+    "when": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "duration": "4 hrs",
+    "client": "Walk-ins",
+    "avatar": "assets/img/avatar/avatar-07.jpg",
+    "status": "Confirmed",
+    "icon": "icon-users"
+  },
+  {
+    "title": "Second Viewing — Bayview Terrace",
+    "location": "Bayview Terrace, San Diego",
+    "when": {
+      "$date": "2026-08-29T15:00:00.000Z"
+    },
+    "duration": "30 mins",
+    "client": "Yuki Sato",
+    "avatar": "assets/img/avatar/avatar-08.jpg",
+    "status": "Cancelled",
+    "icon": "icon-home"
+  },
+  {
+    "title": "Mortgage Advisor Meeting",
+    "location": "Video Call",
+    "when": {
+      "$date": "2026-09-10T10:30:00.000Z"
+    },
+    "duration": "45 mins",
+    "client": "Leila Hassan",
+    "avatar": "assets/img/avatar/avatar-10.jpg",
+    "status": "Pending",
+    "icon": "icon-landmark"
+  },
+  {
+    "title": "Photo Shoot — Aspen Ridge Estate",
+    "location": "Aspen Ridge Estate, Glendale",
+    "when": {
+      "$date": "2026-08-27T08:00:00.000Z"
+    },
+    "duration": "3 hrs",
+    "client": "Clara Hoffmann",
+    "avatar": "assets/img/avatar/avatar-11.jpg",
+    "status": "Completed",
+    "icon": "icon-camera"
+  }
+]

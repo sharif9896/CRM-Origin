@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Villa",
+    "icon": "icon-hotel",
+    "badge": "bg-secondary",
+    "usedIn": 486,
+    "status": "Active",
+    "kind": "category"
+  },
+  {
+    "name": "Apartment",
+    "icon": "icon-building-2",
+    "badge": "bg-primary",
+    "usedIn": 912,
+    "status": "Active",
+    "kind": "category"
+  },
+  {
+    "name": "Penthouse",
+    "icon": "icon-building",
+    "badge": "bg-info",
+    "usedIn": 234,
+    "status": "Active",
+    "kind": "category"
+  },
+  {
+    "name": "Office",
+    "icon": "icon-briefcase",
+    "badge": "bg-orange",
+    "usedIn": 158,
+    "status": "Active",
+    "kind": "category"
+  },
+  {
+    "name": "Land",
+    "icon": "icon-trees",
+    "badge": "bg-teal",
+    "usedIn": 97,
+    "status": "Inactive",
+    "kind": "category"
+  },
+  {
+    "name": "Commercial",
+    "icon": "icon-store",
+    "badge": "bg-warning",
+    "usedIn": 143,
+    "status": "Active",
+    "kind": "category"
+  },
+  {
+    "name": "Wi-Fi",
+    "icon": "icon-wifi",
+    "usedIn": 1842,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Parking",
+    "icon": "icon-car",
+    "usedIn": 2104,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Swimming Pool",
+    "icon": "icon-waves",
+    "usedIn": 687,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Gym",
+    "icon": "icon-dumbbell",
+    "usedIn": 914,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Security",
+    "icon": "icon-shield-check",
+    "usedIn": 1556,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Garden",
+    "icon": "icon-trees",
+    "usedIn": 742,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Air Conditioning",
+    "icon": "icon-snowflake",
+    "usedIn": 1320,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Elevator",
+    "icon": "icon-arrow-up-down",
+    "usedIn": 498,
+    "status": "Inactive",
+    "kind": "amenity"
+  }
+]

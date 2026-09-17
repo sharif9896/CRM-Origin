@@ -1,0 +1,146 @@
+[
+  {
+    "reference": "PAY-20240120-001",
+    "invoice": "INV-2024-0032",
+    "client": "Acme Corporation",
+    "date": {
+      "$date": "2024-01-20T00:00:00.000Z"
+    },
+    "method": "Bank Transfer",
+    "amount": 8500,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-01.jpg"
+  },
+  {
+    "reference": "PAY-20240118-002",
+    "invoice": "INV-2024-0031",
+    "client": "Global Tech Solutions",
+    "date": {
+      "$date": "2024-01-18T00:00:00.000Z"
+    },
+    "method": "Credit Card",
+    "amount": 6200,
+    "status": "Pending",
+    "avatar": "assets/img/avatar/avatar-05.jpg"
+  },
+  {
+    "reference": "PAY-20240115-003",
+    "invoice": "INV-2024-0030",
+    "client": "Prime Enterprises",
+    "date": {
+      "$date": "2024-01-15T00:00:00.000Z"
+    },
+    "method": "Bank Transfer",
+    "amount": 9750,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-03.jpg"
+  },
+  {
+    "reference": "PAY-20240112-004",
+    "invoice": "INV-2024-0029",
+    "client": "Digital Marketing Inc",
+    "date": {
+      "$date": "2024-01-12T00:00:00.000Z"
+    },
+    "method": "PayPal",
+    "amount": 12350,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-07.jpg"
+  },
+  {
+    "reference": "PAY-20240110-005",
+    "invoice": "INV-2024-0028",
+    "client": "Sunrise Partners",
+    "date": {
+      "$date": "2024-01-10T00:00:00.000Z"
+    },
+    "method": "Credit Card",
+    "amount": 15600,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-04.jpg"
+  },
+  {
+    "reference": "PAY-8806",
+    "invoice": "INV-2458",
+    "client": "Miguel Santos",
+    "date": {
+      "$date": "2026-07-04T00:00:00.000Z"
+    },
+    "method": "Bank Transfer",
+    "amount": 14300,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-09.jpg"
+  },
+  {
+    "reference": "PAY-8807",
+    "invoice": "INV-2457",
+    "client": "Yuki Sato",
+    "date": {
+      "$date": "2026-07-06T00:00:00.000Z"
+    },
+    "method": "PayPal",
+    "amount": 9750,
+    "status": "Pending",
+    "avatar": "assets/img/avatar/avatar-08.jpg"
+  },
+  {
+    "reference": "PAY-8808",
+    "invoice": "INV-2461",
+    "client": "Nadia Rahman",
+    "date": {
+      "$date": "2026-07-09T00:00:00.000Z"
+    },
+    "method": "Bank Transfer",
+    "amount": 22400,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-13.jpg"
+  },
+  {
+    "reference": "PAY-8809",
+    "invoice": "INV-2459",
+    "client": "Clara Hoffmann",
+    "date": {
+      "$date": "2026-07-11T00:00:00.000Z"
+    },
+    "method": "Credit Card",
+    "amount": 31200,
+    "status": "Failed",
+    "avatar": "assets/img/avatar/avatar-10.jpg"
+  },
+  {
+    "reference": "PAY-8810",
+    "invoice": "INV-2460",
+    "client": "Andre Silva",
+    "date": {
+      "$date": "2026-07-13T00:00:00.000Z"
+    },
+    "method": "Check",
+    "amount": 6850,
+    "status": "Pending",
+    "avatar": "assets/img/avatar/avatar-11.jpg"
+  },
+  {
+    "reference": "PAY-8811",
+    "invoice": "INV-2455",
+    "client": "Leila Hassan",
+    "date": {
+      "$date": "2026-07-14T00:00:00.000Z"
+    },
+    "method": "Bank Transfer",
+    "amount": 18900,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-06.jpg"
+  },
+  {
+    "reference": "PAY-8812",
+    "invoice": "INV-2462",
+    "client": "Thomas Wright",
+    "date": {
+      "$date": "2026-07-15T00:00:00.000Z"
+    },
+    "method": "Credit Card",
+    "amount": 4950,
+    "status": "Completed",
+    "avatar": "assets/img/avatar/avatar-14.jpg"
+  }
+]

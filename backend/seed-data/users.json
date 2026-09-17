@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Admin User",
+    "email": "admin@realestate.com",
+    "password": "password123",
+    "role": "admin",
+    "isEmailVerified": true
+  },
+  {
+    "name": "Operations Manager",
+    "email": "manager@realestate.com",
+    "password": "password123",
+    "role": "manager",
+    "isEmailVerified": true
+  },
+  {
+    "name": "Senior Agent",
+    "email": "senior.agent@realestate.com",
+    "password": "password123",
+    "role": "senior-agent",
+    "isEmailVerified": true
+  },
+  {
+    "name": "Jennifer Martinez",
+    "email": "jennifer@realestate.com",
+    "password": "password123",
+    "role": "agent",
+    "isEmailVerified": true
+  },
+  {
+    "name": "Workspace Staff",
+    "email": "staff@realestate.com",
+    "password": "password123",
+    "role": "staff",
+    "isEmailVerified": true
+  },
+  {
+    "name": "Read Only Viewer",
+    "email": "viewer@realestate.com",
+    "password": "password123",
+    "role": "viewer",
+    "isEmailVerified": true
+  },
+  {
+    "name": "Demo Customer",
+    "email": "customer@realestate.com",
+    "password": "password123",
+    "role": "customer",
+    "isEmailVerified": true
+  }
+]

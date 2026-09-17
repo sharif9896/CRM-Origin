@@ -1,0 +1,32 @@
+[
+  {
+    "title": "New Lead Assigned",
+    "message": "Lead #LD-954 has been assigned to you.",
+    "avatar": "assets/img/avatar/avatar-03.jpg"
+  },
+  {
+    "title": "Home Tour Scheduled",
+    "message": "Client scheduled tour for Sunset Manor.",
+    "initials": "HT",
+    "badgeClass": "bg-secondary-transparent text-secondary",
+    "online": true
+  },
+  {
+    "title": "Offer Received",
+    "message": "New offer submitted for Oakwood Apartment.",
+    "avatar": "assets/img/avatar/avatar-07.jpg"
+  },
+  {
+    "title": "Listing Sync Completed",
+    "message": "54 new listings synced with the MLS Portal.",
+    "icon": "icon-server",
+    "badgeClass": "bg-warning text-white"
+  },
+  {
+    "title": "Scheduled Meeting",
+    "message": "Meeting with buyer Sarah Jenkins tomorrow.",
+    "initials": "SM",
+    "badgeClass": "bg-primary-transparent text-primary",
+    "online": true
+  }
+]

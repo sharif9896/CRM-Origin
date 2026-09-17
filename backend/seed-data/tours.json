@@ -1,0 +1,50 @@
+[
+  {
+    "property": "Mariana High Apartments",
+    "location": "Los Angeles, CA",
+    "image": "assets/img/dashboard/villa-img-1.jpg",
+    "duration": "3:24",
+    "views": 1284,
+    "status": "Published"
+  },
+  {
+    "property": "Skyline Residences",
+    "location": "Santa Monica, CA",
+    "image": "assets/img/dashboard/villa-img-2.jpg",
+    "duration": "4:10",
+    "views": 968,
+    "status": "Published"
+  },
+  {
+    "property": "The Grand Metropolitan",
+    "location": "Pasadena, CA",
+    "image": "assets/img/dashboard/villa-img-3.jpg",
+    "duration": "2:47",
+    "views": 742,
+    "status": "Published"
+  },
+  {
+    "property": "Oceanview Villa",
+    "location": "Beverly Hills, CA",
+    "image": "assets/img/dashboard/villa-img-4.jpg",
+    "duration": "5:32",
+    "views": 2140,
+    "status": "Published"
+  },
+  {
+    "property": "Hillcrest Manor",
+    "location": "Long Beach, CA",
+    "image": "assets/img/dashboard/villa-img-5.jpg",
+    "duration": "1:58",
+    "views": 386,
+    "status": "Draft"
+  },
+  {
+    "property": "Downtown Business Hub",
+    "location": "Malibu, CA",
+    "image": "assets/img/dashboard/villa-img-6.jpg",
+    "duration": "6:15",
+    "views": 1873,
+    "status": "Published"
+  }
+]

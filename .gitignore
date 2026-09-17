@@ -1,0 +1,9 @@
+﻿node_modules/
+frontend/dist/
+artifacts/
+*.log
+.env
+frontend/.env
+backend/.env
+frontend/lint-report.json
+

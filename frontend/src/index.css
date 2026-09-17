@@ -1,0 +1,348 @@
+/**
+ * PrimeReact injects its base CSS at runtime into its own `@layer primereact`.
+ * A layer that is never named sorts *last*, so those rules beat both our
+ * component CSS and Tailwind's utilities no matter how specific we are — the
+ * reason `pt` classes like `absolute` silently did nothing on its controls.
+ *
+ * Naming the layer first here fixes the cascade: layer order is set by first
+ * appearance, so this must sit above the style.css import (which is where
+ * Tailwind declares theme/base/components/utilities).
+ */
+@layer primereact;
+
+@import "./style/css/style.css";
+
+/**
+ * PrimeReact overrides.
+ *
+ * No PrimeReact theme CSS is imported anywhere — the components give us
+ * behaviour and structural markup, and everything visual comes from here so they
+ * are indistinguishable from the template's own inputs. Every value is a
+ * style.css token (--color-*), so these controls re-theme with the rest of the
+ * app in dark mode for free rather than needing a second set of dark rules.
+ */
+@layer components {
+  /* --- Trigger: must look exactly like a plain .form-input --- */
+  .crm-select.p-dropdown,
+  .crm-date .p-inputtext {
+    width: 100%;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border-color);
+    border-radius: var(--rounded-lg);
+    color: var(--color-gray-900);
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+    transition: border-color 0.15s ease;
+  }
+
+  .crm-select.p-dropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .crm-select.p-dropdown:not(.p-disabled).p-focus,
+  .crm-date .p-inputtext:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: none;
+  }
+
+  .crm-select .p-dropdown-label {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font-size: inherit;
+  }
+
+  .crm-select .p-dropdown-label.p-placeholder,
+  .crm-date .p-inputtext::placeholder {
+    color: var(--color-gray-400);
+  }
+
+  .crm-select .p-dropdown-trigger {
+    width: auto;
+    margin-inline-start: auto;
+    color: var(--color-gray-500);
+  }
+
+  /* PrimeReact's chevron is an inline SVG; size it to sit like the lucide ones. */
+  .crm-select .p-dropdown-trigger svg {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  /* --- Panels: match the app's other dropdown surfaces --- */
+  .crm-select-panel.p-dropdown-panel,
+  .crm-date-panel.p-datepicker {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border-color);
+    border-radius: var(--rounded-lg);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 0.08);
+    margin-top: 0.25rem;
+  }
+
+  .crm-select-panel .p-dropdown-items {
+    padding: 0.375rem;
+    margin: 0;
+    list-style: none;
+  }
+
+  .crm-select-panel .p-dropdown-item {
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--rounded-md);
+    color: var(--color-gray-700);
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .crm-select-panel .p-dropdown-item:hover {
+    background-color: var(--color-light);
+  }
+
+  .crm-select-panel .p-dropdown-item.p-highlight {
+    background-color: var(--color-primary);
+    color: var(--color-dark-white);
+  }
+
+  /* --- Date picker --- */
+  /*
+   * PrimeReact renders <span.p-calendar><input><button></span> as an inline-flex
+   * row, which would leave the icon sitting outside the field. Anchor the span so
+   * the trigger can be overlaid on the input's end padding instead, matching how
+   * the template drew its Flatpickr icon.
+   */
+  .crm-date.p-calendar {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+
+  /*
+   * PrimeReact renders the trigger as a sibling button after the input, so it
+   * would otherwise sit outside the field. Pull it back inside and overlay it on
+   * the input's end padding, matching how the template drew its Flatpickr icon.
+   * `.p-button` is on the element too and carries PrimeReact's own positioning,
+   * so both classes are needed to win on specificity.
+   */
+  .crm-date .p-datepicker-trigger.p-button {
+    position: absolute;
+    inset-inline-end: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 2.5rem;
+    height: auto;
+    min-width: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: var(--color-gray-500);
+    cursor: pointer;
+  }
+
+  .crm-date .p-datepicker-trigger.p-button:hover {
+    background: transparent;
+    color: var(--color-primary);
+  }
+
+  .crm-date .p-inputtext {
+    padding-inline-end: 2.5rem;
+  }
+
+  /*
+   * The dashboard range picker draws its icon at the START of a pill-shaped
+   * field, the mirror of `.crm-date`'s trailing icon. `.rangepicker-input` in
+   * style.css already reserves the leading space (`ps-8`), so only the trigger
+   * needs flipping to that side.
+   */
+  .crm-range .p-inputtext {
+    height: 37.6px;
+    border-radius: var(--rounded-full);
+    padding-inline-start: 2rem;
+    padding-inline-end: 0.75rem;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .crm-range .p-datepicker-trigger.p-button {
+    inset-inline-start: 0;
+    inset-inline-end: auto;
+    width: 2rem;
+    font-size: 12px;
+    color: var(--color-dark);
+  }
+
+  .crm-date-panel.p-datepicker {
+    padding: 0.75rem;
+  }
+
+  .crm-date-panel .p-datepicker-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border-color);
+    color: var(--color-gray-900);
+    font-weight: 600;
+  }
+
+  /*
+   * Month and year are two adjacent <button>s with no separator between them,
+   * so without this they read as "July2026".
+   */
+  .crm-date-panel .p-datepicker-title {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .crm-date-panel .p-datepicker-title .p-link {
+    background: transparent;
+    border: 0;
+    padding: 0.125rem 0.25rem;
+    border-radius: var(--rounded-md);
+    color: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .crm-date-panel .p-datepicker-title .p-link:hover {
+    color: var(--color-primary);
+  }
+
+  .crm-date-panel .p-datepicker-prev,
+  .crm-date-panel .p-datepicker-next {
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: 0;
+    border-radius: var(--rounded-full);
+    color: var(--color-gray-600);
+    cursor: pointer;
+  }
+
+  .crm-date-panel .p-datepicker-prev:hover,
+  .crm-date-panel .p-datepicker-next:hover {
+    background-color: var(--color-light);
+  }
+
+  .crm-date-panel table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .crm-date-panel th {
+    padding: 0.25rem;
+    color: var(--color-gray-500);
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .crm-date-panel td {
+    padding: 0.125rem;
+  }
+
+  .crm-date-panel td > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--rounded-full);
+    color: var(--color-gray-900);
+    font-size: 0.8125rem;
+    cursor: pointer;
+  }
+
+  .crm-date-panel td > span:hover {
+    background-color: var(--color-light);
+  }
+
+  .crm-date-panel td > span.p-highlight {
+    background-color: var(--color-primary);
+    color: var(--color-dark-white);
+  }
+
+  .crm-date-panel td.p-datepicker-today > span {
+    border: 1px solid var(--color-primary);
+  }
+
+  .crm-date-panel .p-datepicker-other-month > span {
+    color: var(--color-gray-400);
+  }
+
+  /**
+   * --- Quill (react-quill-new) ---
+   * The snow theme hardcodes light greys, so re-skin it with the app's tokens.
+   * Without this the editor stays white-on-white in dark mode.
+   */
+  .crm-editor .ql-toolbar.ql-snow,
+  .crm-editor .ql-container.ql-snow {
+    border-color: var(--color-border-color);
+  }
+
+  .crm-editor .ql-toolbar.ql-snow {
+    background-color: var(--color-light);
+    border-start-start-radius: var(--rounded-lg);
+    border-start-end-radius: var(--rounded-lg);
+  }
+
+  .crm-editor .ql-container.ql-snow {
+    background-color: var(--color-white);
+    border-end-start-radius: var(--rounded-lg);
+    border-end-end-radius: var(--rounded-lg);
+    font-family: inherit;
+    font-size: 0.875rem;
+  }
+
+  .crm-editor .ql-editor {
+    min-height: 9rem;
+    color: var(--color-gray-900);
+  }
+
+  .crm-editor .ql-editor.ql-blank::before {
+    color: var(--color-gray-400);
+    font-style: normal;
+  }
+
+  /* Toolbar glyphs are inline SVG strokes/fills, so recolour both. */
+  .crm-editor .ql-snow .ql-stroke {
+    stroke: var(--color-gray-600);
+  }
+
+  .crm-editor .ql-snow .ql-fill {
+    fill: var(--color-gray-600);
+  }
+
+  .crm-editor .ql-snow button:hover .ql-stroke,
+  .crm-editor .ql-snow button.ql-active .ql-stroke {
+    stroke: var(--color-primary);
+  }
+
+  .crm-editor .ql-snow button:hover .ql-fill,
+  .crm-editor .ql-snow button.ql-active .ql-fill {
+    fill: var(--color-primary);
+  }
+
+  /* The link tooltip is a floating card — give it the app's surface. */
+  .crm-editor .ql-snow .ql-tooltip {
+    background-color: var(--color-white);
+    border-color: var(--color-border-color);
+    border-radius: var(--rounded-lg);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 0.08);
+    color: var(--color-gray-900);
+  }
+
+  .crm-editor .ql-snow .ql-tooltip input[type="text"] {
+    background-color: var(--color-white);
+    border-color: var(--color-border-color);
+    color: var(--color-gray-900);
+  }
+}
