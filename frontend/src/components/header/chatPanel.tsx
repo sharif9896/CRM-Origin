@@ -38,7 +38,8 @@ export default function ChatPanel() {
   const [error, setError] = useState('');
   const openRef = useRef(open);
   const selectedRef = useRef(selectedId);
-  const messageEnd = useRef<HTMLDivElement>(null);
+  const messageList = useRef<HTMLDivElement>(null);
+  const stickToLatest = useRef(true);
   useEffect(() => { openRef.current = open; }, [open]);
   useEffect(() => { selectedRef.current = selectedId; }, [selectedId]);
 
@@ -119,12 +120,24 @@ export default function ChatPanel() {
     }).catch(requestError => setError((requestError as Error).message)).finally(() => setLoading(false));
   }, [open, internal, selectedId]);
 
-  useEffect(() => { messageEnd.current?.scrollIntoView({ behavior: 'smooth' }); }, [messages]);
+  useEffect(() => {
+    stickToLatest.current = true;
+  }, [open, selectedId]);
+
+  useEffect(() => {
+    const container = messageList.current;
+    if (!container || !stickToLatest.current) return;
+    const frame = window.requestAnimationFrame(() => {
+      container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [messages, open, selectedId]);
 
   const submit = async (event: React.FormEvent) => {
     event.preventDefault();
     const text = draft.trim();
     if (!text || sending || (internal && !selectedId)) return;
+    stickToLatest.current = true;
     setSending(true);
     setError('');
     setDraft('');
@@ -158,7 +171,7 @@ export default function ChatPanel() {
           <button type="button" className="chat-icon-button" aria-label="Close chat" onClick={() => setOpen(false)}><i className="icon-x"/></button>
         </header>
         <div className="chat-layout">
-          {internal && <aside className="chat-contacts" aria-label="Chat contacts">
+          {internal && <aside className="chat-contacts" aria-label="Chat contacts" tabIndex={0}>
             <div className="chat-contact-title"><strong>People</strong><button type="button" aria-label="Refresh contacts" onClick={() => void loadContacts()}><i className="icon-refresh-cw"/></button></div>
             {contacts.map(contact => <button type="button" key={contact.id} className={`chat-contact ${selectedId === contact.id ? 'active' : ''}`} onClick={() => setSelectedId(contact.id)}>
               <span className="chat-avatar"><ImageWithBasePath src={contact.avatar || 'assets/img/avatar/avatar-02.jpg'} alt=""/><i className={contact.online ? 'online' : ''}/></span>
@@ -172,7 +185,17 @@ export default function ChatPanel() {
               <div className="chat-avatar"><ImageWithBasePath src={internal ? selected?.avatar || 'assets/img/avatar/avatar-02.jpg' : 'assets/img/logo-small.svg'} alt=""/></div>
               <div><strong>{internal ? selected?.name || 'Select a teammate' : 'Realestate Assistant'}</strong><span>{internal ? selected ? `${roleLabel(selected.role)} · ${selected.online ? 'Online' : 'Offline'}` : 'Internal messaging' : 'Automated help for customers and viewers'}</span></div>
             </div>
-            <div className="chat-messages" aria-live="polite">
+            <div
+              ref={messageList}
+              className="chat-messages"
+              aria-label="Conversation messages"
+              aria-live="polite"
+              tabIndex={0}
+              onScroll={event => {
+                const container = event.currentTarget;
+                stickToLatest.current = container.scrollHeight - container.scrollTop - container.clientHeight < 72;
+              }}
+            >
               {!internal && !messages.length && <div className="assistant-welcome"><i className="icon-bot"/><strong>Hello {user?.name?.split(' ')[0]}</strong><p>Ask me about properties, rentals, appointments, tours, agents, billing, or your account.</p></div>}
               {loading && <div className="chat-loading">Loading conversation...</div>}
               {!loading && internal && selectedId && !messages.length && <div className="assistant-welcome"><i className="icon-message-circle"/><strong>Start the conversation</strong><p>Messages are private between you and {selected?.name}.</p></div>}
@@ -182,7 +205,6 @@ export default function ChatPanel() {
                   <div>{message.assistant && <span className="chat-assistant-label"><i className="icon-bot"/> Assistant</span>}<p>{message.text}</p><small>{time(message.createdAt)}{mine && internal ? message.readAt ? ' · Read' : ' · Sent' : ''}</small></div>
                 </div>;
               })}
-              <div ref={messageEnd}/>
             </div>
             {error && <div className="chat-error" role="alert">{error}</div>}
             <form className="chat-compose" onSubmit={submit}>
