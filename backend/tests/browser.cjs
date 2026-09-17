@@ -176,7 +176,7 @@ async function main() {
  await page.locator('.workspace-manager').getByLabel('Search records').fill('NONEXISTENT-RECORD');
  await expect(page.getByText('No matching records',{exact:true})).toBeVisible();
  console.log('PASS shared record manager and empty search');
- await page.goto('http://localhost:5001/payments');await page.getByLabel('Search workspace',{exact:true}).fill('Mariana');
+ await page.goto('http://localhost:5001/payments');await page.getByLabel('Search workspace',{exact:true}).fill('Pacific Crest');
  await expect(page.locator('.global-search-results a').first()).toBeVisible();
  await page.locator('.global-search-results a').first().click();await page.waitForURL('**/property-details/**');
  console.log('PASS global search to property details');

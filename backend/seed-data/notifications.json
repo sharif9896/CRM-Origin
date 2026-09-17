@@ -1,32 +1,49 @@
 [
   {
-    "title": "New Lead Assigned",
-    "message": "Lead #LD-954 has been assigned to you.",
-    "avatar": "assets/img/avatar/avatar-03.jpg"
+    "title": "High-value lead assigned",
+    "message": "Isabella Moore was assigned to Sofia Bennett for immediate follow-up.",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "online": true
   },
   {
-    "title": "Home Tour Scheduled",
-    "message": "Client scheduled tour for Sunset Manor.",
-    "initials": "HT",
+    "title": "Viewing confirmed",
+    "message": "Pacific Crest Villa is scheduled for tomorrow at 11:00 AM.",
+    "initials": "PV",
     "badgeClass": "bg-secondary-transparent text-secondary",
     "online": true
   },
   {
-    "title": "Offer Received",
-    "message": "New offer submitted for Oakwood Apartment.",
-    "avatar": "assets/img/avatar/avatar-07.jpg"
+    "title": "Offer moved to due diligence",
+    "message": "Marina Sky Penthouse has entered the due-diligence stage.",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
-    "title": "Listing Sync Completed",
-    "message": "54 new listings synced with the MLS Portal.",
-    "icon": "icon-server",
-    "badgeClass": "bg-warning text-white"
+    "title": "Payment received",
+    "message": "INV-2605 was paid in full by Priya Venkat.",
+    "icon": "icon-circle-dollar-sign",
+    "badgeClass": "bg-success-transparent text-success"
   },
   {
-    "title": "Scheduled Meeting",
-    "message": "Meeting with buyer Sarah Jenkins tomorrow.",
-    "initials": "SM",
-    "badgeClass": "bg-primary-transparent text-primary",
-    "online": true
+    "title": "Reimbursement awaiting review",
+    "message": "RMB-2026-1004 requires an administrator decision.",
+    "icon": "icon-receipt",
+    "badgeClass": "bg-warning-transparent text-warning"
+  },
+  {
+    "title": "New customer review",
+    "message": "Clara Hoffmann left a five-star review for the sales team.",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "title": "Invoice overdue",
+    "message": "INV-2608 is overdue and needs collection follow-up.",
+    "initials": "AR",
+    "badgeClass": "bg-danger-transparent text-danger"
+  },
+  {
+    "title": "Property media published",
+    "message": "The Pacific Crest Villa tour is live in the media library.",
+    "icon": "icon-video",
+    "badgeClass": "bg-primary-transparent text-primary"
   }
 ]

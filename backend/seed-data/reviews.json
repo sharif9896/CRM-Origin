@@ -1,101 +1,146 @@
 [
   {
     "author": "Marcus Johnson",
-    "avatar": "assets/img/avatar/avatar-01.jpg",
-    "property": "Crestview Penthouse",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Pacific Crest Villa",
     "rating": 5,
-    "comment": "Jennifer knew every detail of the building and answered questions I hadn't thought to ask. The whole process took three weeks end to end.",
+    "comment": "The agent understood our requirements immediately and organized a focused, well-prepared viewing.",
     "date": {
-      "$date": "2026-07-12T00:00:00.000Z"
+      "$date": "2026-02-03T12:00:00.000Z"
     },
-    "replied": true
+    "replied": false,
+    "reply": ""
   },
   {
     "author": "Sarah Jenkins",
-    "avatar": "assets/img/avatar/avatar-03.jpg",
-    "property": "Sunset Manor",
-    "rating": 4,
-    "comment": "Great experience overall. The listing photos undersold the garden — it's much bigger in person.",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Marina Sky Penthouse",
+    "rating": 5,
+    "comment": "Every document and building detail was available before we asked. The process has been exceptionally organized.",
     "date": {
-      "$date": "2026-07-09T00:00:00.000Z"
+      "$date": "2026-03-04T12:00:00.000Z"
     },
-    "replied": true
+    "replied": true,
+    "reply": "Thank you, Sarah. We will keep the due diligence timeline moving and send the final building file this week."
   },
   {
     "author": "Raj Patel",
-    "avatar": "assets/img/avatar/avatar-04.jpg",
-    "property": "Oakwood Apartment",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Oak & Laurel Residence",
     "rating": 5,
-    "comment": "Responsive, straightforward, no pressure. Exactly what I wanted from an agent.",
+    "comment": "Laura handled the negotiation calmly and kept every milestone on schedule through closing.",
     "date": {
-      "$date": "2026-07-05T00:00:00.000Z"
+      "$date": "2026-04-05T12:00:00.000Z"
     },
-    "replied": false
+    "replied": true,
+    "reply": "It was a pleasure representing you. We hope you enjoy the new home."
   },
   {
     "author": "Emily Carter",
-    "avatar": "assets/img/avatar/avatar-05.jpg",
-    "property": "Marina Bay Penthouse",
-    "rating": 3,
-    "comment": "The property was as described, but scheduling the second viewing took longer than I'd have liked.",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Silver Lake Garden Loft",
+    "rating": 4,
+    "comment": "Beautiful property and a useful neighborhood briefing. I would have liked an earlier evening appointment.",
     "date": {
-      "$date": "2026-07-01T00:00:00.000Z"
+      "$date": "2026-05-06T12:00:00.000Z"
     },
-    "replied": false
+    "replied": false,
+    "reply": ""
   },
   {
     "author": "Victor Moreau",
-    "avatar": "assets/img/avatar/avatar-06.jpg",
-    "property": "Willow Creek Villa",
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Bel Air Modern Estate",
     "rating": 5,
-    "comment": "David handled a tricky chain without any drama. Would recommend to anyone buying in Malibu.",
+    "comment": "Michael's investment analysis was specific, practical, and much more useful than a standard sales presentation.",
     "date": {
-      "$date": "2026-06-27T00:00:00.000Z"
+      "$date": "2026-06-07T12:00:00.000Z"
     },
-    "replied": true
+    "replied": true,
+    "reply": "Thank you. We will include the revised operating-cost model in your next briefing."
   },
   {
     "author": "Leila Hassan",
-    "avatar": "assets/img/avatar/avatar-07.jpg",
-    "property": "Harbour Point Studio",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Ocean Avenue Residence",
     "rating": 4,
-    "comment": "Good value and a quick turnaround. The paperwork could be simpler but that's not on the agency.",
+    "comment": "The virtual preview matched the property well and saved us a lot of time before the in-person tour.",
     "date": {
-      "$date": "2026-06-22T00:00:00.000Z"
+      "$date": "2026-07-08T12:00:00.000Z"
     },
-    "replied": false
+    "replied": false,
+    "reply": ""
   },
   {
     "author": "Yuki Sato",
-    "avatar": "assets/img/avatar/avatar-08.jpg",
-    "property": "Bayview Terrace",
-    "rating": 2,
-    "comment": "Two viewings were rescheduled at short notice. The property itself was fine.",
+    "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Arts District Live-Work Loft",
+    "rating": 5,
+    "comment": "Fast lease process, clear communication, and no last-minute surprises.",
     "date": {
-      "$date": "2026-06-18T00:00:00.000Z"
+      "$date": "2026-08-09T12:00:00.000Z"
     },
-    "replied": true
+    "replied": true,
+    "reply": "We are glad the move went smoothly. Welcome to the neighborhood."
   },
   {
     "author": "Miguel Santos",
-    "avatar": "assets/img/avatar/avatar-09.jpg",
-    "property": "Elm Street Residence",
-    "rating": 5,
-    "comment": "Laura went well beyond what I expected, including chasing the surveyor twice.",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Venice Canal Bungalow",
+    "rating": 4,
+    "comment": "The inspection planning has been thorough and all questions are answered quickly.",
     "date": {
-      "$date": "2026-06-14T00:00:00.000Z"
+      "$date": "2026-09-10T12:00:00.000Z"
     },
-    "replied": false
+    "replied": false,
+    "reply": ""
   },
   {
     "author": "Clara Hoffmann",
-    "avatar": "assets/img/avatar/avatar-10.jpg",
-    "property": "Aspen Ridge Estate",
-    "rating": 4,
-    "comment": "Professional throughout. The virtual tour saved me two trips across town.",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Hollywood Hills View House",
+    "rating": 5,
+    "comment": "Sofia balances market knowledge with honest advice. We always know where the negotiation stands.",
     "date": {
-      "$date": "2026-06-10T00:00:00.000Z"
+      "$date": "2026-02-11T12:00:00.000Z"
     },
-    "replied": true
+    "replied": true,
+    "reply": "Thank you, Clara. We will continue to update you after each seller response."
+  },
+  {
+    "author": "Andre Silva",
+    "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Century City Corner Suite",
+    "rating": 5,
+    "comment": "David coordinated legal, facilities, and finance teams without losing momentum.",
+    "date": {
+      "$date": "2026-03-12T12:00:00.000Z"
+    },
+    "replied": true,
+    "reply": "Thank you, Andre. We appreciate the trust your team placed in us."
+  },
+  {
+    "author": "Nadia Rahman",
+    "avatar": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Manhattan Beach Retreat",
+    "rating": 4,
+    "comment": "Professional from first tour through completion. The digital transaction room was especially helpful.",
+    "date": {
+      "$date": "2026-04-13T12:00:00.000Z"
+    },
+    "replied": false,
+    "reply": ""
+  },
+  {
+    "author": "Priya Venkat",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "property": "Brentwood Family Residence",
+    "rating": 5,
+    "comment": "A smooth purchase and handover. The team caught small issues early and resolved them before closing.",
+    "date": {
+      "$date": "2026-05-14T12:00:00.000Z"
+    },
+    "replied": true,
+    "reply": "Thank you, Priya. We wish your family many happy years in Brentwood."
   }
 ]

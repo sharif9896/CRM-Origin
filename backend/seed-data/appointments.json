@@ -1,122 +1,194 @@
 [
   {
-    "title": "Property Viewing — Downtown Penthouse",
-    "location": "Crestview Penthouse, Beverly Hills",
+    "title": "Private viewing — Pacific Crest Villa",
+    "location": "Pacific Crest Villa, Malibu",
     "when": {
-      "$date": "2026-09-03T14:00:00.000Z"
+      "$date": "2026-09-18T05:30:00.000Z"
     },
-    "duration": "30 mins",
+    "duration": "60 mins",
     "client": "Marcus Johnson",
-    "avatar": "assets/img/avatar/avatar-01.jpg",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "status": "Confirmed",
-    "icon": "icon-home"
+    "icon": "icon-home",
+    "requesterEmail": "customer@realestate.com",
+    "requesterWhatsapp": "+1 310 555 0300",
+    "notificationStatus": "sent",
+    "notes": "Please prepare the recent inspection report."
   },
   {
-    "title": "Contract Signing — Sunset Manor",
-    "location": "Head Office, Los Angeles",
+    "title": "Second viewing — Marina Sky Penthouse",
+    "location": "Marina Sky Penthouse, Marina del Rey",
     "when": {
-      "$date": "2026-09-03T16:00:00.000Z"
+      "$date": "2026-09-19T09:00:00.000Z"
     },
-    "duration": "1 hr",
+    "duration": "45 mins",
     "client": "Sarah Jenkins",
-    "avatar": "assets/img/avatar/avatar-03.jpg",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "status": "Confirmed",
-    "icon": "icon-file-text"
+    "icon": "icon-home",
+    "requesterEmail": "sarah.jenkins@example.com",
+    "requesterWhatsapp": "+1 310 555 0301",
+    "notificationStatus": "sent",
+    "notes": "Client is bringing an interior designer."
   },
   {
-    "title": "Valuation Visit — Oakwood Apartment",
-    "location": "Oakwood Apartment, Pasadena",
+    "title": "Valuation review — Silver Lake Garden Loft",
+    "location": "Silver Lake Garden Loft, Silver Lake",
     "when": {
-      "$date": "2026-09-04T10:00:00.000Z"
-    },
-    "duration": "1 hr",
-    "client": "Raj Patel",
-    "avatar": "assets/img/avatar/avatar-04.jpg",
-    "status": "Pending",
-    "icon": "icon-ruler"
-  },
-  {
-    "title": "Client Consultation — Budget Review",
-    "location": "Video Call",
-    "when": {
-      "$date": "2026-09-04T13:00:00.000Z"
+      "$date": "2026-09-20T04:30:00.000Z"
     },
     "duration": "45 mins",
     "client": "Emily Carter",
-    "avatar": "assets/img/avatar/avatar-05.jpg",
-    "status": "Confirmed",
-    "icon": "icon-video"
-  },
-  {
-    "title": "Property Viewing — Willow Creek Villa",
-    "location": "Willow Creek Villa, Malibu",
-    "when": {
-      "$date": "2026-09-07T11:00:00.000Z"
-    },
-    "duration": "1 hr",
-    "client": "Victor Moreau",
-    "avatar": "assets/img/avatar/avatar-06.jpg",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "status": "Pending",
-    "icon": "icon-home"
+    "icon": "icon-ruler",
+    "requesterEmail": "emily.carter@example.com",
+    "requesterWhatsapp": "+1 310 555 0303",
+    "notificationStatus": "queued",
+    "notes": "Review comparable sales before arrival."
   },
   {
-    "title": "Handover — Elm Street Residence",
-    "location": "Elm Street Residence, Burbank",
+    "title": "Investment consultation",
+    "location": "Video call",
     "when": {
-      "$date": "2026-08-31T09:00:00.000Z"
-    },
-    "duration": "1 hr",
-    "client": "Miguel Santos",
-    "avatar": "assets/img/avatar/avatar-09.jpg",
-    "status": "Completed",
-    "icon": "icon-key"
-  },
-  {
-    "title": "Open House — Marina Bay Penthouse",
-    "location": "Marina Bay, Marina del Rey",
-    "when": {
-      "$date": "2026-09-09T12:00:00.000Z"
-    },
-    "duration": "4 hrs",
-    "client": "Walk-ins",
-    "avatar": "assets/img/avatar/avatar-07.jpg",
-    "status": "Confirmed",
-    "icon": "icon-users"
-  },
-  {
-    "title": "Second Viewing — Bayview Terrace",
-    "location": "Bayview Terrace, San Diego",
-    "when": {
-      "$date": "2026-08-29T15:00:00.000Z"
+      "$date": "2026-09-21T04:00:00.000Z"
     },
     "duration": "30 mins",
-    "client": "Yuki Sato",
-    "avatar": "assets/img/avatar/avatar-08.jpg",
-    "status": "Cancelled",
-    "icon": "icon-home"
+    "client": "Victor Moreau",
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Confirmed",
+    "icon": "icon-video",
+    "requesterEmail": "victor.moreau@example.com",
+    "requesterWhatsapp": "+1 310 555 0304",
+    "notificationStatus": "sent",
+    "notes": "Discuss financing assumptions and resale horizon."
   },
   {
-    "title": "Mortgage Advisor Meeting",
-    "location": "Video Call",
+    "title": "Open house — Ocean Avenue Residence",
+    "location": "Ocean Avenue Residence, Santa Monica",
     "when": {
-      "$date": "2026-09-10T10:30:00.000Z"
-    },
-    "duration": "45 mins",
-    "client": "Leila Hassan",
-    "avatar": "assets/img/avatar/avatar-10.jpg",
-    "status": "Pending",
-    "icon": "icon-landmark"
-  },
-  {
-    "title": "Photo Shoot — Aspen Ridge Estate",
-    "location": "Aspen Ridge Estate, Glendale",
-    "when": {
-      "$date": "2026-08-27T08:00:00.000Z"
+      "$date": "2026-09-22T06:30:00.000Z"
     },
     "duration": "3 hrs",
+    "client": "Leila Hassan",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Confirmed",
+    "icon": "icon-users",
+    "requesterEmail": "leila.hassan@example.com",
+    "requesterWhatsapp": "+1 310 555 0305",
+    "notificationStatus": "sent",
+    "notes": "Concierge will provide guest access."
+  },
+  {
+    "title": "Inspection — Venice Canal Bungalow",
+    "location": "Venice Canal Bungalow, Venice",
+    "when": {
+      "$date": "2026-09-24T07:30:00.000Z"
+    },
+    "duration": "90 mins",
+    "client": "Miguel Santos",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Pending",
+    "icon": "icon-search",
+    "requesterEmail": "miguel.santos@example.com",
+    "requesterWhatsapp": "+1 310 555 0307",
+    "notificationStatus": "queued",
+    "notes": "General and roof inspectors attending."
+  },
+  {
+    "title": "Contract review — Hollywood Hills View House",
+    "location": "Head Office, Los Angeles",
+    "when": {
+      "$date": "2026-09-25T10:30:00.000Z"
+    },
+    "duration": "60 mins",
     "client": "Clara Hoffmann",
-    "avatar": "assets/img/avatar/avatar-11.jpg",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Confirmed",
+    "icon": "icon-file-text",
+    "requesterEmail": "clara.hoffmann@example.com",
+    "requesterWhatsapp": "+1 310 555 0308",
+    "notificationStatus": "sent",
+    "notes": "Counsel will join remotely."
+  },
+  {
+    "title": "Site tour — Culver Creative Campus",
+    "location": "Culver Creative Campus, Culver City",
+    "when": {
+      "$date": "2026-09-27T05:00:00.000Z"
+    },
+    "duration": "90 mins",
+    "client": "Kevin O'Brien",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Pending",
+    "icon": "icon-building",
+    "requesterEmail": "kevin.obrien@example.com",
+    "requesterWhatsapp": "+1 310 555 0313",
+    "notificationStatus": "queued",
+    "notes": "Facilities team of four attending."
+  },
+  {
+    "title": "Photography — Downtown Skyline Penthouse",
+    "location": "Downtown Skyline Penthouse, Downtown Los Angeles",
+    "when": {
+      "$date": "2026-09-15T02:30:00.000Z"
+    },
+    "duration": "2 hrs",
+    "client": "Fatima Noor",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "status": "Completed",
-    "icon": "icon-camera"
+    "icon": "icon-camera",
+    "requesterEmail": "fatima.noor@example.com",
+    "requesterWhatsapp": "+1 310 555 0314",
+    "notificationStatus": "sent",
+    "notes": "Twilight exterior set completed."
+  },
+  {
+    "title": "Handover — Brentwood Family Residence",
+    "location": "Brentwood Family Residence, Brentwood",
+    "when": {
+      "$date": "2026-09-03T09:30:00.000Z"
+    },
+    "duration": "60 mins",
+    "client": "Priya Venkat",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Completed",
+    "icon": "icon-key",
+    "requesterEmail": "priya.venkat@example.com",
+    "requesterWhatsapp": "+1 310 555 0315",
+    "notificationStatus": "sent",
+    "notes": "Keys and appliance manuals delivered."
+  },
+  {
+    "title": "Lease signing — Arts District Live-Work Loft",
+    "location": "Head Office, Los Angeles",
+    "when": {
+      "$date": "2026-08-27T05:30:00.000Z"
+    },
+    "duration": "45 mins",
+    "client": "Yuki Sato",
+    "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Completed",
+    "icon": "icon-file-text",
+    "requesterEmail": "yuki.sato@example.com",
+    "requesterWhatsapp": "+1 310 555 0306",
+    "notificationStatus": "sent",
+    "notes": "Signed documents uploaded to client file."
+  },
+  {
+    "title": "Viewing — Echo Park Terrace Apartment",
+    "location": "Echo Park Terrace Apartment, Echo Park",
+    "when": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "duration": "30 mins",
+    "client": "Thomas Wright",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "status": "Cancelled",
+    "icon": "icon-home",
+    "requesterEmail": "thomas.wright@example.com",
+    "requesterWhatsapp": "+1 310 555 0311",
+    "notificationStatus": "skipped",
+    "notes": "Client requested a new date next week."
   }
 ]

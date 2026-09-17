@@ -1,178 +1,194 @@
 [
   {
-    "name": "Alexander Kenn",
-    "email": "alex@example.com",
-    "phone": "+1 555 0142",
-    "interestedIn": "Mariana High Apartments",
-    "status": "New",
-    "joined": {
-      "$date": "2026-09-11T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-02.jpg"
-  },
-  {
-    "name": "Gabriella White",
-    "email": "gab@example.com",
-    "phone": "+1 555 0198",
-    "interestedIn": "Sunset Villa",
-    "status": "Warm",
-    "joined": {
-      "$date": "2026-09-05T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-03.jpg"
-  },
-  {
-    "name": "Christopher Rey",
-    "email": "chris@example.com",
-    "phone": "+1 555 0234",
-    "interestedIn": "Downtown Loft",
+    "name": "Marcus Johnson",
+    "email": "customer@realestate.com",
+    "phone": "+1 310 555 0300",
+    "interestedIn": "Pacific Crest Villa",
+    "source": "website",
     "status": "Hot",
     "joined": {
-      "$date": "2026-08-12T00:00:00.000Z"
+      "$date": "2026-01-02T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-04.jpg"
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
-    "name": "Penelope Ton",
-    "email": "pen@example.com",
-    "phone": "+1 555 0311",
-    "interestedIn": "Palm Residency",
-    "status": "Converted",
-    "joined": {
-      "$date": "2026-07-28T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-05.jpg"
-  },
-  {
-    "name": "Marcus Lee",
-    "email": "marcus.lee@example.com",
-    "phone": "+1 555 0367",
-    "interestedIn": "Riverside Lofts",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@example.com",
+    "phone": "+1 310 555 0301",
+    "interestedIn": "Marina Sky Penthouse",
+    "source": "referral",
     "status": "Warm",
     "joined": {
-      "$date": "2026-07-19T00:00:00.000Z"
+      "$date": "2026-02-03T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-06.jpg"
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Raj Patel",
+    "email": "raj.patel@example.com",
+    "phone": "+1 310 555 0302",
+    "interestedIn": "Oak & Laurel Residence",
+    "source": "website",
+    "status": "Converted",
+    "joined": {
+      "$date": "2026-03-04T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Emily Carter",
+    "email": "emily.carter@example.com",
+    "phone": "+1 310 555 0303",
+    "interestedIn": "Silver Lake Garden Loft",
+    "source": "social",
+    "status": "New",
+    "joined": {
+      "$date": "2026-04-05T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Victor Moreau",
+    "email": "victor.moreau@example.com",
+    "phone": "+1 310 555 0304",
+    "interestedIn": "Bel Air Modern Estate",
+    "source": "referral",
+    "status": "Hot",
+    "joined": {
+      "$date": "2026-05-06T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Leila Hassan",
-    "email": "leila.h@example.com",
-    "phone": "+1 555 0315",
-    "interestedIn": "Sunset Manor",
-    "status": "Hot",
+    "email": "leila.hassan@example.com",
+    "phone": "+1 310 555 0305",
+    "interestedIn": "Ocean Avenue Residence",
+    "source": "property portal",
+    "status": "Warm",
     "joined": {
-      "$date": "2026-03-17T00:00:00.000Z"
+      "$date": "2026-06-07T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-07.jpg"
-  },
-  {
-    "name": "Kevin O'Brien",
-    "email": "kevin.o@example.com",
-    "phone": "+1 555 0316",
-    "interestedIn": "Harbour Point Studio",
-    "status": "New",
-    "joined": {
-      "$date": "2026-03-29T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-08.jpg"
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Yuki Sato",
-    "email": "yuki.s@example.com",
-    "phone": "+1 555 0317",
-    "interestedIn": "Bayview Terrace",
+    "email": "yuki.sato@example.com",
+    "phone": "+1 310 555 0306",
+    "interestedIn": "Arts District Live-Work Loft",
+    "source": "website",
     "status": "Converted",
     "joined": {
-      "$date": "2026-04-05T00:00:00.000Z"
+      "$date": "2026-07-08T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-09.jpg"
+    "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Miguel Santos",
-    "email": "miguel.s@example.com",
-    "phone": "+1 555 0318",
-    "interestedIn": "Grand Oak Manor",
-    "status": "Warm",
+    "email": "miguel.santos@example.com",
+    "phone": "+1 310 555 0307",
+    "interestedIn": "Venice Canal Bungalow",
+    "source": "open house",
+    "status": "Hot",
     "joined": {
-      "$date": "2026-04-19T00:00:00.000Z"
+      "$date": "2026-08-09T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-10.jpg"
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Clara Hoffmann",
-    "email": "clara.h@example.com",
-    "phone": "+1 555 0319",
-    "interestedIn": "Marina Bay Penthouse",
-    "status": "Hot",
+    "email": "clara.hoffmann@example.com",
+    "phone": "+1 310 555 0308",
+    "interestedIn": "Hollywood Hills View House",
+    "source": "website",
+    "status": "Warm",
     "joined": {
-      "$date": "2026-05-02T00:00:00.000Z"
+      "$date": "2026-01-10T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-11.jpg"
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Andre Silva",
-    "email": "andre.s@example.com",
-    "phone": "+1 555 0320",
-    "interestedIn": "Aspen Ridge Estate",
-    "status": "New",
+    "email": "andre.silva@example.com",
+    "phone": "+1 310 555 0309",
+    "interestedIn": "Century City Corner Suite",
+    "source": "partner",
+    "status": "Converted",
     "joined": {
-      "$date": "2026-05-14T00:00:00.000Z"
+      "$date": "2026-02-11T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-13.jpg"
+    "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Nadia Rahman",
-    "email": "nadia.r@example.com",
-    "phone": "+1 555 0321",
-    "interestedIn": "Coral Heights",
+    "email": "nadia.rahman@example.com",
+    "phone": "+1 310 555 0310",
+    "interestedIn": "Manhattan Beach Retreat",
+    "source": "referral",
     "status": "Converted",
     "joined": {
-      "$date": "2026-05-26T00:00:00.000Z"
+      "$date": "2026-03-12T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-14.jpg"
+    "avatar": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Thomas Wright",
-    "email": "thomas.w@example.com",
-    "phone": "+1 555 0322",
-    "interestedIn": "Cedar Lane Loft",
-    "status": "Warm",
-    "joined": {
-      "$date": "2026-06-09T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-15.jpg"
-  },
-  {
-    "name": "Ingrid Larsen",
-    "email": "ingrid.l@example.com",
-    "phone": "+1 555 0323",
-    "interestedIn": "Lakeside Studio",
+    "email": "thomas.wright@example.com",
+    "phone": "+1 310 555 0311",
+    "interestedIn": "Echo Park Terrace Apartment",
+    "source": "website",
     "status": "New",
     "joined": {
-      "$date": "2026-06-22T00:00:00.000Z"
+      "$date": "2026-04-13T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-16.jpg"
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
-    "name": "Carlos Mendez",
-    "email": "carlos.m@example.com",
-    "phone": "+1 555 0324",
-    "interestedIn": "Summit View Villa",
+    "name": "Amelia Brooks",
+    "email": "amelia.brooks@example.com",
+    "phone": "+1 310 555 0312",
+    "interestedIn": "Beverly Grove Townhome",
+    "source": "email campaign",
+    "status": "Warm",
+    "joined": {
+      "$date": "2026-05-14T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Kevin O'Brien",
+    "email": "kevin.obrien@example.com",
+    "phone": "+1 310 555 0313",
+    "interestedIn": "Culver Creative Campus",
+    "source": "commercial referral",
     "status": "Hot",
     "joined": {
-      "$date": "2026-07-01T00:00:00.000Z"
+      "$date": "2026-06-15T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-17.jpg"
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Fatima Noor",
+    "email": "fatima.noor@example.com",
+    "phone": "+1 310 555 0314",
+    "interestedIn": "Downtown Skyline Penthouse",
+    "source": "social",
+    "status": "New",
+    "joined": {
+      "$date": "2026-07-16T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
     "name": "Priya Venkat",
-    "email": "priya.v@example.com",
-    "phone": "+1 555 0325",
-    "interestedIn": "Rosewood Cottage",
+    "email": "priya.venkat@example.com",
+    "phone": "+1 310 555 0315",
+    "interestedIn": "Brentwood Family Residence",
+    "source": "open house",
     "status": "Converted",
     "joined": {
-      "$date": "2026-07-08T00:00:00.000Z"
+      "$date": "2026-08-17T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-18.jpg"
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   }
 ]

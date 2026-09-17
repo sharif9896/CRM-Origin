@@ -1,158 +1,278 @@
 [
   {
-    "number": "INV-2451",
-    "client": "Sarah Jenkins",
-    "issueDate": {
-      "$date": "2026-06-01T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-06-15T00:00:00.000Z"
-    },
-    "amount": 12500,
-    "status": "Paid",
-    "avatar": "assets/img/avatar/avatar-01.jpg"
-  },
-  {
-    "number": "INV-2452",
+    "number": "INV-2601",
     "client": "Raj Patel",
     "issueDate": {
-      "$date": "2026-06-03T00:00:00.000Z"
+      "$date": "2026-02-25T12:00:00.000Z"
     },
     "dueDate": {
-      "$date": "2026-06-17T00:00:00.000Z"
+      "$date": "2026-03-11T12:00:00.000Z"
     },
-    "amount": 8400,
-    "status": "Pending",
-    "avatar": "assets/img/avatar/avatar-03.jpg"
-  },
-  {
-    "number": "INV-2453",
-    "client": "Emily Carter",
-    "issueDate": {
-      "$date": "2026-06-05T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-06-19T00:00:00.000Z"
-    },
-    "amount": 24750,
-    "status": "Overdue",
-    "avatar": "assets/img/avatar/avatar-04.jpg"
-  },
-  {
-    "number": "INV-2454",
-    "client": "Victor Moreau",
-    "issueDate": {
-      "$date": "2026-06-08T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-06-22T00:00:00.000Z"
-    },
-    "amount": 5600,
+    "amount": 21800,
     "status": "Paid",
-    "avatar": "assets/img/avatar/avatar-05.jpg"
+    "items": [
+      {
+        "description": "Buyer representation and closing coordination",
+        "quantity": 1,
+        "unitPrice": 21800,
+        "total": 21800,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
   },
   {
-    "number": "INV-2455",
-    "client": "Leila Hassan",
-    "issueDate": {
-      "$date": "2026-06-11T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-06-25T00:00:00.000Z"
-    },
-    "amount": 18900,
-    "status": "Draft",
-    "avatar": "assets/img/avatar/avatar-06.jpg"
-  },
-  {
-    "number": "INV-2456",
-    "client": "Kevin O'Brien",
-    "issueDate": {
-      "$date": "2026-06-14T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-06-28T00:00:00.000Z"
-    },
-    "amount": 3200,
-    "status": "Paid",
-    "avatar": "assets/img/avatar/avatar-07.jpg"
-  },
-  {
-    "number": "INV-2457",
+    "number": "INV-2602",
     "client": "Yuki Sato",
     "issueDate": {
-      "$date": "2026-06-17T00:00:00.000Z"
+      "$date": "2026-03-19T12:00:00.000Z"
     },
     "dueDate": {
-      "$date": "2026-07-01T00:00:00.000Z"
+      "$date": "2026-04-02T12:00:00.000Z"
     },
-    "amount": 9750,
-    "status": "Pending",
-    "avatar": "assets/img/avatar/avatar-08.jpg"
-  },
-  {
-    "number": "INV-2458",
-    "client": "Miguel Santos",
-    "issueDate": {
-      "$date": "2026-06-20T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-07-04T00:00:00.000Z"
-    },
-    "amount": 14300,
+    "amount": 6750,
     "status": "Paid",
-    "avatar": "assets/img/avatar/avatar-09.jpg"
+    "items": [
+      {
+        "description": "Lease placement and documentation",
+        "quantity": 1,
+        "unitPrice": 6750,
+        "total": 6750,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
   },
   {
-    "number": "INV-2459",
-    "client": "Clara Hoffmann",
-    "issueDate": {
-      "$date": "2026-06-23T00:00:00.000Z"
-    },
-    "dueDate": {
-      "$date": "2026-07-07T00:00:00.000Z"
-    },
-    "amount": 31200,
-    "status": "Overdue",
-    "avatar": "assets/img/avatar/avatar-10.jpg"
-  },
-  {
-    "number": "INV-2460",
+    "number": "INV-2603",
     "client": "Andre Silva",
     "issueDate": {
-      "$date": "2026-06-26T00:00:00.000Z"
+      "$date": "2026-05-23T12:00:00.000Z"
     },
     "dueDate": {
-      "$date": "2026-07-10T00:00:00.000Z"
+      "$date": "2026-06-06T12:00:00.000Z"
     },
-    "amount": 6850,
-    "status": "Pending",
-    "avatar": "assets/img/avatar/avatar-11.jpg"
+    "amount": 31500,
+    "status": "Paid",
+    "items": [
+      {
+        "description": "Commercial acquisition advisory",
+        "quantity": 1,
+        "unitPrice": 31500,
+        "total": 31500,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
   },
   {
-    "number": "INV-2461",
+    "number": "INV-2604",
     "client": "Nadia Rahman",
     "issueDate": {
-      "$date": "2026-06-29T00:00:00.000Z"
+      "$date": "2026-06-30T12:00:00.000Z"
     },
     "dueDate": {
-      "$date": "2026-07-13T00:00:00.000Z"
+      "$date": "2026-07-14T12:00:00.000Z"
     },
-    "amount": 22400,
+    "amount": 54250,
     "status": "Paid",
-    "avatar": "assets/img/avatar/avatar-13.jpg"
+    "items": [
+      {
+        "description": "Residential transaction advisory",
+        "quantity": 1,
+        "unitPrice": 54250,
+        "total": 54250,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
   },
   {
-    "number": "INV-2462",
-    "client": "Thomas Wright",
+    "number": "INV-2605",
+    "client": "Priya Venkat",
     "issueDate": {
-      "$date": "2026-07-02T00:00:00.000Z"
+      "$date": "2026-08-15T12:00:00.000Z"
     },
     "dueDate": {
-      "$date": "2026-07-16T00:00:00.000Z"
+      "$date": "2026-08-29T12:00:00.000Z"
     },
-    "amount": 4950,
+    "amount": 32950,
+    "status": "Paid",
+    "items": [
+      {
+        "description": "Residential transaction advisory",
+        "quantity": 1,
+        "unitPrice": 32950,
+        "total": 32950,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2606",
+    "client": "Marcus Johnson",
+    "issueDate": {
+      "$date": "2026-09-10T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-24T12:00:00.000Z"
+    },
+    "amount": 24250,
+    "status": "Pending",
+    "items": [
+      {
+        "description": "Offer and negotiation retainer",
+        "quantity": 1,
+        "unitPrice": 24250,
+        "total": 24250,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2607",
+    "client": "Sarah Jenkins",
+    "issueDate": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "amount": 18375,
+    "status": "Pending",
+    "items": [
+      {
+        "description": "Due diligence coordination",
+        "quantity": 1,
+        "unitPrice": 18375,
+        "total": 18375,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2608",
+    "client": "Miguel Santos",
+    "issueDate": {
+      "$date": "2026-08-28T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "amount": 12425,
+    "status": "Overdue",
+    "items": [
+      {
+        "description": "Inspection and transaction management",
+        "quantity": 1,
+        "unitPrice": 12425,
+        "total": 12425,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2609",
+    "client": "Clara Hoffmann",
+    "issueDate": {
+      "$date": "2026-09-14T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "amount": 19900,
     "status": "Draft",
-    "avatar": "assets/img/avatar/avatar-14.jpg"
+    "items": [
+      {
+        "description": "Negotiation advisory",
+        "quantity": 1,
+        "unitPrice": 19900,
+        "total": 19900,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2610",
+    "client": "Kevin O'Brien",
+    "issueDate": {
+      "$date": "2026-09-05T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-19T12:00:00.000Z"
+    },
+    "amount": 36750,
+    "status": "Pending",
+    "items": [
+      {
+        "description": "Commercial search engagement",
+        "quantity": 1,
+        "unitPrice": 36750,
+        "total": 36750,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2611",
+    "client": "Amelia Brooks",
+    "issueDate": {
+      "$date": "2026-09-02T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "amount": 9475,
+    "status": "Overdue",
+    "items": [
+      {
+        "description": "Purchase coordination retainer",
+        "quantity": 1,
+        "unitPrice": 9475,
+        "total": 9475,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
+  },
+  {
+    "number": "INV-2612",
+    "client": "Fatima Noor",
+    "issueDate": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    },
+    "dueDate": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "amount": 14450,
+    "status": "Draft",
+    "items": [
+      {
+        "description": "Penthouse search advisory",
+        "quantity": 1,
+        "unitPrice": 14450,
+        "total": 14450,
+        "tax": 0
+      }
+    ],
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Payment terms: net 14 days. Please quote the invoice number with remittance."
   }
 ]

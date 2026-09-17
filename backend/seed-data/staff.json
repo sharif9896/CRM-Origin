@@ -1,134 +1,134 @@
 [
   {
+    "name": "Arjun Malhotra",
+    "email": "admin@realestate.com",
+    "role": "System Administrator",
+    "department": "Administration",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2020-02-10T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Nisha Kapoor",
+    "email": "manager@realestate.com",
+    "role": "Operations Manager",
+    "department": "Operations",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2021-04-19T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Sofia Bennett",
+    "email": "senior.agent@realestate.com",
+    "role": "Senior Agent",
+    "department": "Sales",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2021-08-02T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
     "name": "Jennifer Martinez",
-    "email": "jennifer.staff@example.com",
-    "role": "Senior Agent",
+    "email": "jennifer@realestate.com",
+    "role": "Agent",
     "department": "Sales",
     "status": "Active",
     "joinDate": {
-      "$date": "2022-01-15T00:00:00.000Z"
+      "$date": "2022-01-17T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-02.jpg"
+    "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
-    "name": "Gabriella White",
-    "email": "gabriella@example.com",
-    "role": "Manager",
+    "name": "Priya Shah",
+    "email": "staff@realestate.com",
+    "role": "CRM Coordinator",
+    "department": "Customer Success",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2023-03-06T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Noah Williams",
+    "email": "noah.williams@example.com",
+    "role": "Finance Analyst",
+    "department": "Finance",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2022-09-12T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Grace Lee",
+    "email": "grace.lee@example.com",
+    "role": "Marketing Lead",
+    "department": "Marketing",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2022-06-27T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Omar Rahman",
+    "email": "omar.rahman@example.com",
+    "role": "Property Coordinator",
     "department": "Operations",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2021-03-22T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-03.jpg"
-  },
-  {
-    "name": "Christopher Rey",
-    "email": "christopher@example.com",
-    "role": "Junior Agent",
-    "department": "Sales",
     "status": "On Leave",
     "joinDate": {
-      "$date": "2023-07-08T00:00:00.000Z"
+      "$date": "2023-11-13T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-04.jpg"
+    "avatar": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   },
   {
-    "name": "Michelle Anderson",
-    "email": "michelle@example.com",
-    "role": "Viewer",
-    "department": "Support",
+    "name": "Chloe Morgan",
+    "email": "chloe.morgan@example.com",
+    "role": "Compliance Officer",
+    "department": "Legal & Compliance",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2021-10-04T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Lucas Silva",
+    "email": "lucas.silva@example.com",
+    "role": "Photographer",
+    "department": "Marketing",
+    "status": "Active",
+    "joinDate": {
+      "$date": "2024-02-19T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Maya Ortiz",
+    "email": "maya.ortiz@example.com",
+    "role": "Office Administrator",
+    "department": "Administration",
+    "status": "Pending",
+    "joinDate": {
+      "$date": "2026-09-28T12:00:00.000Z"
+    },
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
+  },
+  {
+    "name": "Henry Walker",
+    "email": "henry.walker@example.com",
+    "role": "Facilities Specialist",
+    "department": "Operations",
     "status": "Inactive",
     "joinDate": {
-      "$date": "2023-11-30T00:00:00.000Z"
+      "$date": "2022-12-05T12:00:00.000Z"
     },
-    "avatar": "assets/img/avatar/avatar-05.jpg"
-  },
-  {
-    "name": "David Chen",
-    "email": "david.staff@example.com",
-    "role": "Senior Agent",
-    "department": "Sales",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2022-02-14T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-20.jpg"
-  },
-  {
-    "name": "Robert Sinclair",
-    "email": "robert@example.com",
-    "role": "Admin",
-    "department": "Operations",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2020-08-03T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-24.jpg"
-  },
-  {
-    "name": "Aisha Karim",
-    "email": "aisha@example.com",
-    "role": "Junior Agent",
-    "department": "Management",
-    "status": "On Leave",
-    "joinDate": {
-      "$date": "2023-05-19T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-23.jpg"
-  },
-  {
-    "name": "Sara Lindgren",
-    "email": "sara@example.com",
-    "role": "Manager",
-    "department": "Operations",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2021-10-11T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-27.jpg"
-  },
-  {
-    "name": "James Okonkwo",
-    "email": "james@example.com",
-    "role": "Junior Agent",
-    "department": "Sales",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2023-01-27T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-26.jpg"
-  },
-  {
-    "name": "Elena Petrova",
-    "email": "elena@example.com",
-    "role": "Viewer",
-    "department": "Support",
-    "status": "Inactive",
-    "joinDate": {
-      "$date": "2023-09-05T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-25.jpg"
-  },
-  {
-    "name": "Tomas Alvarez",
-    "email": "tomas@example.com",
-    "role": "Senior Agent",
-    "department": "Sales",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2022-04-18T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-28.jpg"
-  },
-  {
-    "name": "Nina Kowalski",
-    "email": "nina@example.com",
-    "role": "Junior Agent",
-    "department": "Management",
-    "status": "Active",
-    "joinDate": {
-      "$date": "2023-06-30T00:00:00.000Z"
-    },
-    "avatar": "assets/img/avatar/avatar-29.jpg"
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86"
   }
 ]

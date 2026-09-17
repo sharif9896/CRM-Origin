@@ -1,156 +1,200 @@
 [
   {
-    "reference": "TXN-20240120-045",
+    "reference": "TXN-26001",
     "type": "Credit",
-    "description": "Invoice Payment - Acme Corp",
+    "description": "Commission — Oak & Laurel Residence",
     "date": {
-      "$date": "2024-01-20T00:00:00.000Z"
+      "$date": "2026-02-25T12:00:00.000Z"
     },
-    "account": "Checking",
-    "amount": 8500,
+    "account": "Operating Account",
+    "amount": 65400,
     "status": "Completed"
   },
   {
-    "reference": "TXN-20240119-044",
+    "reference": "TXN-26002",
     "type": "Debit",
-    "description": "Office Supplies Purchase",
+    "description": "February campaign and listing media",
     "date": {
-      "$date": "2024-01-19T00:00:00.000Z"
-    },
-    "account": "Expenses",
-    "amount": 1250,
-    "status": "Completed"
-  },
-  {
-    "reference": "TXN-20240118-043",
-    "type": "Credit",
-    "description": "Payment - Global Tech",
-    "date": {
-      "$date": "2024-01-18T00:00:00.000Z"
-    },
-    "account": "Savings",
-    "amount": 6200,
-    "status": "Completed"
-  },
-  {
-    "reference": "TXN-20240117-042",
-    "type": "Debit",
-    "description": "Payroll Distribution",
-    "date": {
-      "$date": "2024-01-17T00:00:00.000Z"
-    },
-    "account": "Payroll",
-    "amount": 18500,
-    "status": "Completed"
-  },
-  {
-    "reference": "TXN-20240116-041",
-    "type": "Credit",
-    "description": "Invoice Settlement - Prime",
-    "date": {
-      "$date": "2024-01-16T00:00:00.000Z"
-    },
-    "account": "Checking",
-    "amount": 9750,
-    "status": "Completed"
-  },
-  {
-    "reference": "TXN-5506",
-    "type": "Debit",
-    "description": "Property photography",
-    "date": {
-      "$date": "2026-07-10T00:00:00.000Z"
+      "$date": "2026-02-28T12:00:00.000Z"
     },
     "account": "Marketing Account",
-    "amount": 1850,
+    "amount": 8200,
     "status": "Completed"
   },
   {
-    "reference": "TXN-5507",
+    "reference": "TXN-26003",
     "type": "Credit",
-    "description": "Commission — Coral Heights",
+    "description": "Commission — Arts District Live-Work Loft",
     "date": {
-      "$date": "2026-07-08T00:00:00.000Z"
+      "$date": "2026-03-19T12:00:00.000Z"
     },
     "account": "Operating Account",
-    "amount": 24450,
+    "amount": 20250,
     "status": "Completed"
   },
   {
-    "reference": "TXN-5508",
+    "reference": "TXN-26004",
     "type": "Debit",
-    "description": "Agent payroll — July",
+    "description": "CRM and listing platform subscriptions",
     "date": {
-      "$date": "2026-07-05T00:00:00.000Z"
+      "$date": "2026-03-30T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 4650,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26005",
+    "type": "Credit",
+    "description": "Commission — Century City Corner Suite",
+    "date": {
+      "$date": "2026-05-23T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 94500,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26006",
+    "type": "Debit",
+    "description": "Commercial property valuation services",
+    "date": {
+      "$date": "2026-05-25T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 7200,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26007",
+    "type": "Credit",
+    "description": "Commission — Manhattan Beach Retreat",
+    "date": {
+      "$date": "2026-06-30T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 162750,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26008",
+    "type": "Debit",
+    "description": "June payroll distribution",
+    "date": {
+      "$date": "2026-06-30T12:00:00.000Z"
     },
     "account": "Payroll Account",
-    "amount": 42600,
+    "amount": 68400,
     "status": "Completed"
   },
   {
-    "reference": "TXN-5509",
+    "reference": "TXN-26009",
     "type": "Debit",
-    "description": "MLS subscription renewal",
+    "description": "Professional photography and aerial media",
     "date": {
-      "$date": "2026-07-03T00:00:00.000Z"
+      "$date": "2026-07-12T12:00:00.000Z"
     },
-    "account": "Operating Account",
-    "amount": 2400,
-    "status": "Failed"
-  },
-  {
-    "reference": "TXN-5510",
-    "type": "Credit",
-    "description": "Commission — Aspen Ridge Estate",
-    "date": {
-      "$date": "2026-07-01T00:00:00.000Z"
-    },
-    "account": "Operating Account",
-    "amount": 93600,
+    "account": "Marketing Account",
+    "amount": 5850,
     "status": "Completed"
   },
   {
-    "reference": "TXN-5511",
+    "reference": "TXN-26010",
+    "type": "Credit",
+    "description": "Referral partnership income",
+    "date": {
+      "$date": "2026-07-28T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 12400,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26011",
+    "type": "Credit",
+    "description": "Commission — Brentwood Family Residence",
+    "date": {
+      "$date": "2026-08-15T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 98850,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26012",
     "type": "Debit",
-    "description": "Software licences",
+    "description": "August open-house events",
     "date": {
-      "$date": "2026-06-28T00:00:00.000Z"
+      "$date": "2026-08-23T12:00:00.000Z"
     },
-    "account": "Operating Account",
-    "amount": 3150,
+    "account": "Marketing Account",
+    "amount": 6300,
     "status": "Completed"
   },
   {
-    "reference": "TXN-5512",
-    "type": "Credit",
-    "description": "Referral fee — partner agency",
+    "reference": "TXN-26013",
+    "type": "Debit",
+    "description": "August payroll distribution",
     "date": {
-      "$date": "2026-06-26T00:00:00.000Z"
+      "$date": "2026-08-31T12:00:00.000Z"
+    },
+    "account": "Payroll Account",
+    "amount": 70200,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26014",
+    "type": "Credit",
+    "description": "Advisory retainer — Culver Creative Campus",
+    "date": {
+      "$date": "2026-09-06T12:00:00.000Z"
     },
     "account": "Operating Account",
-    "amount": 5200,
+    "amount": 36750,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26015",
+    "type": "Debit",
+    "description": "Agent travel and mileage reimbursements",
+    "date": {
+      "$date": "2026-09-10T12:00:00.000Z"
+    },
+    "account": "Expense Account",
+    "amount": 3280,
+    "status": "Completed"
+  },
+  {
+    "reference": "TXN-26016",
+    "type": "Credit",
+    "description": "Buyer representation retainers",
+    "date": {
+      "$date": "2026-09-14T12:00:00.000Z"
+    },
+    "account": "Operating Account",
+    "amount": 42625,
     "status": "Pending"
   },
   {
-    "reference": "TXN-5513",
+    "reference": "TXN-26017",
     "type": "Debit",
-    "description": "Client entertainment",
+    "description": "Quarterly insurance premium",
     "date": {
-      "$date": "2026-06-24T00:00:00.000Z"
+      "$date": "2026-09-15T12:00:00.000Z"
     },
     "account": "Operating Account",
-    "amount": 940,
-    "status": "Completed"
+    "amount": 9400,
+    "status": "Pending"
   },
   {
-    "reference": "TXN-5514",
-    "type": "Credit",
-    "description": "Commission — Bayview Terrace",
+    "reference": "TXN-26018",
+    "type": "Debit",
+    "description": "Duplicate listing media charge",
     "date": {
-      "$date": "2026-06-21T00:00:00.000Z"
+      "$date": "2026-09-16T12:00:00.000Z"
     },
-    "account": "Operating Account",
-    "amount": 28200,
-    "status": "Completed"
+    "account": "Marketing Account",
+    "amount": 850,
+    "status": "Failed"
   }
 ]

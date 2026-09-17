@@ -1,10 +1,210 @@
 [
-  { "claimNumber": "RMB-2026-1001", "employeeName": "Jennifer Martinez", "employeeEmail": "jennifer@realestate.com", "kind": "Expense", "category": "Travel", "description": "Flight and airport transfer for regional property conference.", "amount": 860, "expenseDate": { "$date": "2026-08-16T00:00:00.000Z" }, "submittedDate": { "$date": "2026-08-18T00:00:00.000Z" }, "status": "Paid", "paymentMethod": "Bank Transfer", "receiptNumber": "AIR-84925", "approvedBy": "Operations Manager", "paymentReference": "PAY-RMB-1001", "taxable": false, "recurring": false },
-  { "claimNumber": "RMB-2026-1002", "employeeName": "Senior Agent", "employeeEmail": "senior.agent@realestate.com", "kind": "Expense", "category": "Food & Meals", "description": "Client lunch following the Oakwood property inspection.", "amount": 148, "expenseDate": { "$date": "2026-08-22T00:00:00.000Z" }, "submittedDate": { "$date": "2026-08-23T00:00:00.000Z" }, "status": "Approved", "paymentMethod": "Payroll", "receiptNumber": "MEAL-2208", "approvedBy": "Admin User", "taxable": false, "recurring": false },
-  { "claimNumber": "RMB-2026-1003", "employeeName": "Workspace Staff", "employeeEmail": "staff@realestate.com", "kind": "Allowance", "category": "Communication", "description": "Monthly business phone and internet allowance.", "amount": 95, "expenseDate": { "$date": "2026-09-01T00:00:00.000Z" }, "submittedDate": { "$date": "2026-09-01T00:00:00.000Z" }, "status": "Paid", "paymentMethod": "Payroll", "approvedBy": "Operations Manager", "paymentReference": "PAY-RMB-1003", "taxable": false, "recurring": true },
-  { "claimNumber": "RMB-2026-1004", "employeeName": "Operations Manager", "employeeEmail": "manager@realestate.com", "kind": "Expense", "category": "Accommodation", "description": "Two-night accommodation for the national brokerage summit.", "amount": 620, "expenseDate": { "$date": "2026-09-04T00:00:00.000Z" }, "submittedDate": { "$date": "2026-09-06T00:00:00.000Z" }, "status": "Under Review", "paymentMethod": "Not Assigned", "receiptNumber": "HTL-49218", "taxable": false, "recurring": false },
-  { "claimNumber": "RMB-2026-1005", "employeeName": "Jennifer Martinez", "employeeEmail": "jennifer@realestate.com", "kind": "Expense", "category": "Mileage", "description": "Client viewings and listing inspections, August mileage.", "amount": 284, "expenseDate": { "$date": "2026-08-31T00:00:00.000Z" }, "submittedDate": { "$date": "2026-09-02T00:00:00.000Z" }, "status": "Submitted", "paymentMethod": "Not Assigned", "receiptNumber": "MILE-0826", "taxable": false, "recurring": false },
-  { "claimNumber": "RMB-2026-1006", "employeeName": "Senior Agent", "employeeEmail": "senior.agent@realestate.com", "kind": "Allowance", "category": "Daily Allowance", "description": "Three-day subsistence allowance for regional site visits.", "amount": 360, "expenseDate": { "$date": "2026-09-08T00:00:00.000Z" }, "submittedDate": { "$date": "2026-09-09T00:00:00.000Z" }, "status": "Approved", "paymentMethod": "Payroll", "approvedBy": "Operations Manager", "taxable": false, "recurring": false },
-  { "claimNumber": "RMB-2026-1007", "employeeName": "Workspace Staff", "employeeEmail": "staff@realestate.com", "kind": "Expense", "category": "Office Supplies", "description": "Presentation folders and listing documentation supplies.", "amount": 126, "expenseDate": { "$date": "2026-09-10T00:00:00.000Z" }, "submittedDate": { "$date": "2026-09-11T00:00:00.000Z" }, "status": "Draft", "paymentMethod": "Not Assigned", "receiptNumber": "OFF-7714", "taxable": false, "recurring": false },
-  { "claimNumber": "RMB-2026-1008", "employeeName": "Operations Manager", "employeeEmail": "manager@realestate.com", "kind": "Expense", "category": "Client Entertainment", "description": "Unapproved event hospitality claim retained for audit history.", "amount": 980, "expenseDate": { "$date": "2026-08-28T00:00:00.000Z" }, "submittedDate": { "$date": "2026-08-30T00:00:00.000Z" }, "status": "Rejected", "paymentMethod": "Not Assigned", "receiptNumber": "EVT-3380", "approvedBy": "Admin User", "notes": "Rejected because the policy limit was exceeded.", "taxable": false, "recurring": false }
+  {
+    "claimNumber": "RMB-2026-1001",
+    "employeeName": "Sofia Bennett",
+    "employeeEmail": "senior.agent@realestate.com",
+    "kind": "Expense",
+    "category": "Travel",
+    "description": "Airfare and transfer for the West Coast luxury property forum.",
+    "amount": 860,
+    "expenseDate": {
+      "$date": "2026-08-16T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-08-18T12:00:00.000Z"
+    },
+    "status": "Paid",
+    "paymentMethod": "Bank Transfer",
+    "receiptNumber": "AIR-84925",
+    "approvedBy": "Nisha Kapoor",
+    "paymentReference": "PAY-RMB-1001",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1002",
+    "employeeName": "Jennifer Martinez",
+    "employeeEmail": "jennifer@realestate.com",
+    "kind": "Expense",
+    "category": "Food & Meals",
+    "description": "Client lunch following the Marina Sky inspection.",
+    "amount": 148,
+    "expenseDate": {
+      "$date": "2026-08-22T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-08-23T12:00:00.000Z"
+    },
+    "status": "Approved",
+    "paymentMethod": "Payroll",
+    "receiptNumber": "MEAL-2208",
+    "approvedBy": "Nisha Kapoor",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1003",
+    "employeeName": "Priya Shah",
+    "employeeEmail": "staff@realestate.com",
+    "kind": "Allowance",
+    "category": "Communication",
+    "description": "Monthly business phone and internet allowance.",
+    "amount": 95,
+    "expenseDate": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-01T12:00:00.000Z"
+    },
+    "status": "Paid",
+    "paymentMethod": "Payroll",
+    "approvedBy": "Nisha Kapoor",
+    "paymentReference": "PAY-RMB-1003",
+    "taxable": false,
+    "recurring": true
+  },
+  {
+    "claimNumber": "RMB-2026-1004",
+    "employeeName": "Nisha Kapoor",
+    "employeeEmail": "manager@realestate.com",
+    "kind": "Expense",
+    "category": "Accommodation",
+    "description": "Two nights for the national brokerage operations summit.",
+    "amount": 620,
+    "expenseDate": {
+      "$date": "2026-09-04T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-06T12:00:00.000Z"
+    },
+    "status": "Under Review",
+    "paymentMethod": "Not Assigned",
+    "receiptNumber": "HTL-49218",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1005",
+    "employeeName": "Jennifer Martinez",
+    "employeeEmail": "jennifer@realestate.com",
+    "kind": "Expense",
+    "category": "Mileage",
+    "description": "August client viewings and listing inspections.",
+    "amount": 284,
+    "expenseDate": {
+      "$date": "2026-08-31T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-02T12:00:00.000Z"
+    },
+    "status": "Submitted",
+    "paymentMethod": "Not Assigned",
+    "receiptNumber": "MILE-0826",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1006",
+    "employeeName": "Sofia Bennett",
+    "employeeEmail": "senior.agent@realestate.com",
+    "kind": "Allowance",
+    "category": "Daily Allowance",
+    "description": "Three-day subsistence allowance for regional site visits.",
+    "amount": 375,
+    "expenseDate": {
+      "$date": "2026-09-08T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-09T12:00:00.000Z"
+    },
+    "status": "Approved",
+    "paymentMethod": "Payroll",
+    "approvedBy": "Nisha Kapoor",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1007",
+    "employeeName": "Priya Shah",
+    "employeeEmail": "staff@realestate.com",
+    "kind": "Expense",
+    "category": "Office Supplies",
+    "description": "Presentation folders and transaction documentation supplies.",
+    "amount": 126,
+    "expenseDate": {
+      "$date": "2026-09-10T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    },
+    "status": "Draft",
+    "paymentMethod": "Not Assigned",
+    "receiptNumber": "OFF-7714",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1008",
+    "employeeName": "Nisha Kapoor",
+    "employeeEmail": "manager@realestate.com",
+    "kind": "Expense",
+    "category": "Client Entertainment",
+    "description": "Hospitality expense submitted above the pre-approved policy limit.",
+    "amount": 980,
+    "expenseDate": {
+      "$date": "2026-08-28T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-08-30T12:00:00.000Z"
+    },
+    "status": "Rejected",
+    "paymentMethod": "Not Assigned",
+    "receiptNumber": "EVT-3380",
+    "approvedBy": "Arjun Malhotra",
+    "taxable": false,
+    "recurring": false,
+    "notes": "Rejected because the approved policy limit was exceeded."
+  },
+  {
+    "claimNumber": "RMB-2026-1009",
+    "employeeName": "Lucas Silva",
+    "employeeEmail": "lucas.silva@example.com",
+    "kind": "Expense",
+    "category": "Fuel",
+    "description": "Fuel and parking for three property photography assignments.",
+    "amount": 212,
+    "expenseDate": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    },
+    "status": "Submitted",
+    "paymentMethod": "Company Card",
+    "receiptNumber": "FUEL-0912",
+    "taxable": false,
+    "recurring": false
+  },
+  {
+    "claimNumber": "RMB-2026-1010",
+    "employeeName": "Chloe Morgan",
+    "employeeEmail": "chloe.morgan@example.com",
+    "kind": "Expense",
+    "category": "Training",
+    "description": "Annual fair housing and brokerage compliance certification.",
+    "amount": 475,
+    "expenseDate": {
+      "$date": "2026-09-03T12:00:00.000Z"
+    },
+    "submittedDate": {
+      "$date": "2026-09-04T12:00:00.000Z"
+    },
+    "status": "Paid",
+    "paymentMethod": "Bank Transfer",
+    "receiptNumber": "CERT-2609",
+    "approvedBy": "Nisha Kapoor",
+    "paymentReference": "PAY-RMB-1010",
+    "taxable": false,
+    "recurring": false
+  }
 ]

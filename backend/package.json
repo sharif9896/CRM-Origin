@@ -8,6 +8,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "seed": "node src/seed/seed.js",
+    "seed:refresh": "node src/seed/seed.js --replace",
+    "seed:verify": "node src/seed/verify.js",
     "seed:destroy": "node src/seed/seed.js --destroy",
     "seed:export-json": "node src/seed/export-json.js",
     "test": "node tests/integration.cjs",

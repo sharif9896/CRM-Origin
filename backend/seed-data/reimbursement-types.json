@@ -1,12 +1,112 @@
 [
-  { "name": "Daily Subsistence Allowance", "code": "ALW-DAILY", "kind": "Allowance", "category": "Daily Allowance", "description": "Daily allowance for approved business travel.", "defaultLimit": 120, "receiptRequired": false, "taxable": false, "active": true },
-  { "name": "Housing Allowance", "code": "ALW-HOUSING", "kind": "Allowance", "category": "Housing", "description": "Approved temporary housing support.", "defaultLimit": 1800, "receiptRequired": true, "taxable": true, "active": true },
-  { "name": "Phone & Internet Allowance", "code": "ALW-COMMS", "kind": "Allowance", "category": "Communication", "description": "Recurring business communication allowance.", "defaultLimit": 100, "receiptRequired": false, "taxable": false, "active": true },
-  { "name": "Air & Rail Travel", "code": "EXP-TRAVEL", "kind": "Expense", "category": "Travel", "description": "Approved airfare, rail, taxi, and local transit costs.", "defaultLimit": 2500, "receiptRequired": true, "taxable": false, "active": true },
-  { "name": "Business Mileage", "code": "EXP-MILEAGE", "kind": "Expense", "category": "Mileage", "description": "Mileage reimbursement for approved private-vehicle use.", "defaultLimit": 500, "receiptRequired": false, "taxable": false, "active": true },
-  { "name": "Food & Meals", "code": "EXP-MEALS", "kind": "Expense", "category": "Food & Meals", "description": "Meals purchased during approved business activity.", "defaultLimit": 150, "receiptRequired": true, "taxable": false, "active": true },
-  { "name": "Hotel & Accommodation", "code": "EXP-HOTEL", "kind": "Expense", "category": "Accommodation", "description": "Accommodation for approved travel and events.", "defaultLimit": 1200, "receiptRequired": true, "taxable": false, "active": true },
-  { "name": "Fuel & Parking", "code": "EXP-FUEL", "kind": "Expense", "category": "Fuel", "description": "Fuel, toll, and parking expenses for business journeys.", "defaultLimit": 350, "receiptRequired": true, "taxable": false, "active": true },
-  { "name": "Client Entertainment", "code": "EXP-CLIENT", "kind": "Expense", "category": "Client Entertainment", "description": "Pre-approved client meetings and entertainment.", "defaultLimit": 750, "receiptRequired": true, "taxable": false, "active": true },
-  { "name": "Training & Certification", "code": "EXP-TRAIN", "kind": "Expense", "category": "Training", "description": "Approved courses, examinations, and professional certifications.", "defaultLimit": 2000, "receiptRequired": true, "taxable": false, "active": true }
+  {
+    "name": "Daily Subsistence Allowance",
+    "code": "ALW-DAILY",
+    "kind": "Allowance",
+    "category": "Daily Allowance",
+    "description": "Daily allowance for approved out-of-area business travel.",
+    "defaultLimit": 125,
+    "receiptRequired": false,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Housing Allowance",
+    "code": "ALW-HOUSING",
+    "kind": "Allowance",
+    "category": "Housing",
+    "description": "Temporary housing support approved by Human Resources.",
+    "defaultLimit": 1800,
+    "receiptRequired": true,
+    "taxable": true,
+    "active": true
+  },
+  {
+    "name": "Phone & Internet Allowance",
+    "code": "ALW-COMMS",
+    "kind": "Allowance",
+    "category": "Communication",
+    "description": "Monthly business communication allowance.",
+    "defaultLimit": 100,
+    "receiptRequired": false,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Air & Rail Travel",
+    "code": "EXP-TRAVEL",
+    "kind": "Expense",
+    "category": "Travel",
+    "description": "Approved air, rail, taxi, and transit costs.",
+    "defaultLimit": 2500,
+    "receiptRequired": true,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Business Mileage",
+    "code": "EXP-MILEAGE",
+    "kind": "Expense",
+    "category": "Mileage",
+    "description": "Mileage reimbursement for approved private-vehicle use.",
+    "defaultLimit": 500,
+    "receiptRequired": false,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Food & Meals",
+    "code": "EXP-MEALS",
+    "kind": "Expense",
+    "category": "Food & Meals",
+    "description": "Meals purchased during approved business activity.",
+    "defaultLimit": 175,
+    "receiptRequired": true,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Hotel & Accommodation",
+    "code": "EXP-HOTEL",
+    "kind": "Expense",
+    "category": "Accommodation",
+    "description": "Accommodation for approved travel and events.",
+    "defaultLimit": 1200,
+    "receiptRequired": true,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Fuel & Parking",
+    "code": "EXP-FUEL",
+    "kind": "Expense",
+    "category": "Fuel",
+    "description": "Fuel, toll, and parking costs for business journeys.",
+    "defaultLimit": 350,
+    "receiptRequired": true,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Client Entertainment",
+    "code": "EXP-CLIENT",
+    "kind": "Expense",
+    "category": "Client Entertainment",
+    "description": "Pre-approved client meetings and hospitality.",
+    "defaultLimit": 750,
+    "receiptRequired": true,
+    "taxable": false,
+    "active": true
+  },
+  {
+    "name": "Training & Certification",
+    "code": "EXP-TRAIN",
+    "kind": "Expense",
+    "category": "Training",
+    "description": "Approved courses, examinations, and professional certifications.",
+    "defaultLimit": 2000,
+    "receiptRequired": true,
+    "taxable": false,
+    "active": true
+  }
 ]

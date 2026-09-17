@@ -1,164 +1,308 @@
 [
   {
-    "name": "Marcus Johnson",
-    "email": "marcus@example.com",
-    "phone": "+1 555 0412",
+    "name": "Isabella Moore",
+    "email": "isabella.moore@example.com",
+    "phone": "+1 310 555 0400",
     "status": "Hot",
-    "budget": "$2.5M - $3.5M",
+    "budget": "$2.5M - $4.0M",
+    "budgetMin": 2500000,
+    "budgetMax": 4000000,
+    "source": "Luxury portal",
+    "propertyType": "Villa",
+    "assignedTo": "Sofia Bennett",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Needs a west-facing pool and a private office.",
+    "createdAt": {
+      "$date": "2026-01-03T12:00:00.000Z"
+    }
+  },
+  {
+    "name": "Liam Anderson",
+    "email": "liam.anderson@example.com",
+    "phone": "+1 310 555 0401",
+    "status": "Warm",
+    "budget": "$0.7M - $0.9M",
+    "budgetMin": 700000,
+    "budgetMax": 950000,
+    "source": "Website",
+    "propertyType": "Apartment",
     "assignedTo": "Jennifer Martinez",
-    "avatar": "assets/img/avatar/avatar-02.jpg"
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Relocating in November; prefers a walkable neighborhood.",
+    "createdAt": {
+      "$date": "2026-02-04T12:00:00.000Z"
+    }
   },
   {
-    "name": "Emily Rodriguez",
-    "email": "emily@example.com",
-    "phone": "+1 555 0547",
-    "status": "Warm",
-    "budget": "$800K - $1.2M",
-    "assignedTo": "Gabriella White",
-    "avatar": "assets/img/avatar/avatar-03.jpg"
-  },
-  {
-    "name": "David Chen",
-    "email": "david@example.com",
-    "phone": "+1 555 0698",
+    "name": "Ava Thompson",
+    "email": "ava.thompson@example.com",
+    "phone": "+1 310 555 0402",
     "status": "New",
-    "budget": "$1.5M - $2M",
-    "assignedTo": "Christopher Rey",
-    "avatar": "assets/img/avatar/avatar-04.jpg"
+    "budget": "$1.8M - $2.4M",
+    "budgetMin": 1800000,
+    "budgetMax": 2400000,
+    "source": "Open house",
+    "propertyType": "Villa",
+    "assignedTo": "Laura Bennett",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Requested school district and commute comparisons.",
+    "createdAt": {
+      "$date": "2026-03-05T12:00:00.000Z"
+    }
   },
   {
-    "name": "Sofia Almeida",
-    "email": "sofia@example.com",
-    "phone": "+1 555 0264",
+    "name": "Noah Garcia",
+    "email": "noah.garcia@example.com",
+    "phone": "+1 310 555 0403",
     "status": "Converted",
-    "budget": "$1.8M - $2.2M",
-    "assignedTo": "Michael",
-    "avatar": "assets/img/avatar/avatar-04.jpg"
+    "budget": "$0.5M - $0.8M",
+    "budgetMin": 500000,
+    "budgetMax": 750000,
+    "source": "Referral",
+    "propertyType": "Apartment",
+    "assignedTo": "Amina Yusuf",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Lease signed for Arts District loft.",
+    "createdAt": {
+      "$date": "2026-04-06T12:00:00.000Z"
+    }
   },
   {
-    "name": "Ethan Brooks",
-    "email": "ethan@example.com",
-    "phone": "+1 555 0891",
+    "name": "Mia Robinson",
+    "email": "mia.robinson@example.com",
+    "phone": "+1 310 555 0404",
     "status": "Hot",
-    "budget": "$3.0M - $4.0M",
-    "assignedTo": "Laura",
-    "avatar": "assets/img/avatar/avatar-05.jpg"
+    "budget": "$2.8M - $3.6M",
+    "budgetMin": 2800000,
+    "budgetMax": 3600000,
+    "source": "Social",
+    "propertyType": "Penthouse",
+    "assignedTo": "Sofia Bennett",
+    "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Pre-approved and ready to view this week.",
+    "createdAt": {
+      "$date": "2026-05-07T12:00:00.000Z"
+    }
   },
   {
-    "name": "Hannah Whitfield",
-    "email": "hannah@example.com",
-    "phone": "+1 555 0357",
+    "name": "Ethan Clark",
+    "email": "ethan.clark@example.com",
+    "phone": "+1 310 555 0405",
     "status": "Warm",
-    "budget": "$650K - $900K",
-    "assignedTo": "David",
-    "avatar": "assets/img/avatar/avatar-06.jpg"
+    "budget": "$4.5M - $8.0M",
+    "budgetMin": 4500000,
+    "budgetMax": 8000000,
+    "source": "Partner",
+    "propertyType": "Office",
+    "assignedTo": "David Chen",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Searching for a 12,000+ sq ft creative headquarters.",
+    "createdAt": {
+      "$date": "2026-06-08T12:00:00.000Z"
+    }
   },
   {
-    "name": "Omar Haddad",
-    "email": "omar@example.com",
-    "phone": "+1 555 0620",
+    "name": "Sophia Lewis",
+    "email": "sophia.lewis@example.com",
+    "phone": "+1 310 555 0406",
     "status": "New",
-    "budget": "$1.1M - $1.4M",
-    "assignedTo": "Jennifer",
-    "avatar": "assets/img/avatar/avatar-07.jpg"
+    "budget": "$0.8M - $1.2M",
+    "budgetMin": 850000,
+    "budgetMax": 1200000,
+    "source": "Website",
+    "propertyType": "Apartment",
+    "assignedTo": "Elena Rossi",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Needs pet-friendly building with two parking spaces.",
+    "createdAt": {
+      "$date": "2026-07-09T12:00:00.000Z"
+    }
   },
   {
-    "name": "Grace Liu",
-    "email": "grace@example.com",
-    "phone": "+1 555 0475",
+    "name": "James Walker",
+    "email": "james.walker@example.com",
+    "phone": "+1 310 555 0407",
     "status": "Hot",
-    "budget": "$2.0M - $2.6M",
-    "assignedTo": "Michael",
-    "avatar": "assets/img/avatar/avatar-08.jpg"
+    "budget": "$3.5M - $5.0M",
+    "budgetMin": 3500000,
+    "budgetMax": 5000000,
+    "source": "Referral",
+    "propertyType": "Villa",
+    "assignedTo": "Michael Reed",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Cash buyer focused on long-term appreciation.",
+    "createdAt": {
+      "$date": "2026-08-10T12:00:00.000Z"
+    }
   },
   {
-    "name": "Tobias Meyer",
-    "email": "tobias@example.com",
-    "phone": "+1 555 0139",
-    "status": "New",
-    "budget": "$500K - $700K",
-    "assignedTo": "Laura",
-    "avatar": "assets/img/avatar/avatar-09.jpg"
-  },
-  {
-    "name": "Isabella Rossi",
-    "email": "isabella@example.com",
-    "phone": "+1 555 0982",
+    "name": "Charlotte Hall",
+    "email": "charlotte.hall@example.com",
+    "phone": "+1 310 555 0408",
     "status": "Warm",
-    "budget": "$1.5M - $1.9M",
-    "assignedTo": "David",
-    "avatar": "assets/img/avatar/avatar-10.jpg"
+    "budget": "$1.2M - $1.9M",
+    "budgetMin": 1200000,
+    "budgetMax": 1900000,
+    "source": "Email campaign",
+    "propertyType": "Apartment",
+    "assignedTo": "Jennifer Martinez",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Interested in a managed building near the beach.",
+    "createdAt": {
+      "$date": "2026-09-11T12:00:00.000Z"
+    }
   },
   {
-    "name": "Noah Patterson",
-    "email": "noah@example.com",
-    "phone": "+1 555 0546",
-    "status": "New",
-    "budget": "$380K - $520K",
-    "assignedTo": "Jennifer",
-    "avatar": "assets/img/avatar/avatar-11.jpg"
-  },
-  {
-    "name": "Amara Okafor",
-    "email": "amara@example.com",
-    "phone": "+1 555 0718",
+    "name": "Benjamin Young",
+    "email": "benjamin.young@example.com",
+    "phone": "+1 310 555 0409",
     "status": "Converted",
-    "budget": "$2.8M - $3.2M",
-    "assignedTo": "Michael",
-    "avatar": "assets/img/avatar/avatar-13.jpg"
+    "budget": "$2.2M - $3.0M",
+    "budgetMin": 2200000,
+    "budgetMax": 3000000,
+    "source": "Open house",
+    "propertyType": "Villa",
+    "assignedTo": "Laura Bennett",
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Offer accepted on Beverly Grove Townhome.",
+    "createdAt": {
+      "$date": "2026-01-12T12:00:00.000Z"
+    }
   },
   {
-    "name": "Lucas Ferreira",
-    "email": "lucas@example.com",
-    "phone": "+1 555 0293",
-    "status": "Hot",
-    "budget": "$1.2M - $1.6M",
-    "assignedTo": "Laura",
-    "avatar": "assets/img/avatar/avatar-14.jpg"
-  },
-  {
-    "name": "Mei Tanaka",
-    "email": "mei@example.com",
-    "phone": "+1 555 0864",
-    "status": "Warm",
-    "budget": "$900K - $1.3M",
-    "assignedTo": "David",
-    "avatar": "assets/img/avatar/avatar-15.jpg"
-  },
-  {
-    "name": "Caleb Nguyen",
-    "email": "caleb@example.com",
-    "phone": "+1 555 0407",
+    "name": "Harper King",
+    "email": "harper.king@example.com",
+    "phone": "+1 310 555 0410",
     "status": "New",
-    "budget": "$700K - $950K",
-    "assignedTo": "Jennifer",
-    "avatar": "assets/img/avatar/avatar-16.jpg"
+    "budget": "$0.6M - $0.8M",
+    "budgetMin": 600000,
+    "budgetMax": 850000,
+    "source": "Property portal",
+    "propertyType": "Apartment",
+    "assignedTo": "Amina Yusuf",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "First-time buyer requesting lender introduction.",
+    "createdAt": {
+      "$date": "2026-02-13T12:00:00.000Z"
+    }
   },
   {
-    "name": "Freya Lindqvist",
-    "email": "freya@example.com",
-    "phone": "+1 555 0651",
-    "status": "Hot",
-    "budget": "$4.0M - $5.5M",
-    "assignedTo": "Michael",
-    "avatar": "assets/img/avatar/avatar-17.jpg"
-  },
-  {
-    "name": "Andre Dubois",
-    "email": "andre@example.com",
-    "phone": "+1 555 0328",
+    "name": "Alexander Scott",
+    "email": "alexander.scott@example.com",
+    "phone": "+1 310 555 0411",
     "status": "Warm",
-    "budget": "$1.0M - $1.4M",
-    "assignedTo": "Laura",
-    "avatar": "assets/img/avatar/avatar-18.jpg"
+    "budget": "$2.5M - $3.4M",
+    "budgetMin": 2500000,
+    "budgetMax": 3400000,
+    "source": "Website",
+    "propertyType": "Office",
+    "assignedTo": "David Chen",
+    "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Professional services firm seeking a corner floor.",
+    "createdAt": {
+      "$date": "2026-03-14T12:00:00.000Z"
+    }
   },
   {
-    "name": "Zara Ahmed",
-    "email": "zara@example.com",
-    "phone": "+1 555 0790",
+    "name": "Evelyn Green",
+    "email": "evelyn.green@example.com",
+    "phone": "+1 310 555 0412",
+    "status": "Hot",
+    "budget": "$2.0M - $2.9M",
+    "budgetMin": 2000000,
+    "budgetMax": 2900000,
+    "source": "Referral",
+    "propertyType": "Villa",
+    "assignedTo": "Jennifer Martinez",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Second viewing requested for Venice Canal Bungalow.",
+    "createdAt": {
+      "$date": "2026-04-15T12:00:00.000Z"
+    }
+  },
+  {
+    "name": "Daniel Adams",
+    "email": "daniel.adams@example.com",
+    "phone": "+1 310 555 0413",
+    "status": "New",
+    "budget": "$0.4M - $0.7M",
+    "budgetMin": 400000,
+    "budgetMax": 650000,
+    "source": "Social",
+    "propertyType": "Apartment",
+    "assignedTo": "Elena Rossi",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Looking for an investment rental with stable yield.",
+    "createdAt": {
+      "$date": "2026-05-16T12:00:00.000Z"
+    }
+  },
+  {
+    "name": "Abigail Baker",
+    "email": "abigail.baker@example.com",
+    "phone": "+1 310 555 0414",
+    "status": "Warm",
+    "budget": "$2.8M - $3.8M",
+    "budgetMin": 2800000,
+    "budgetMax": 3800000,
+    "source": "Luxury portal",
+    "propertyType": "Penthouse",
+    "assignedTo": "Sofia Bennett",
+    "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Needs concierge service and secure guest parking.",
+    "createdAt": {
+      "$date": "2026-06-17T12:00:00.000Z"
+    }
+  },
+  {
+    "name": "Henry Nelson",
+    "email": "henry.nelson@example.com",
+    "phone": "+1 310 555 0415",
     "status": "Converted",
-    "budget": "$2.2M - $2.9M",
-    "assignedTo": "David",
-    "avatar": "assets/img/avatar/avatar-19.jpg"
+    "budget": "$3.0M - $3.6M",
+    "budgetMin": 3000000,
+    "budgetMax": 3600000,
+    "source": "Referral",
+    "propertyType": "Villa",
+    "assignedTo": "Laura Bennett",
+    "avatar": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Completed on Brentwood Family Residence.",
+    "createdAt": {
+      "$date": "2026-07-18T12:00:00.000Z"
+    }
+  },
+  {
+    "name": "Ella Carter",
+    "email": "ella.carter@example.com",
+    "phone": "+1 310 555 0416",
+    "status": "Hot",
+    "budget": "$4.8M - $6.5M",
+    "budgetMin": 4800000,
+    "budgetMax": 6500000,
+    "source": "Commercial referral",
+    "propertyType": "Office",
+    "assignedTo": "David Chen",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Board approval received; site review pending.",
+    "createdAt": {
+      "$date": "2026-08-19T12:00:00.000Z"
+    }
+  },
+  {
+    "name": "Jackson Mitchell",
+    "email": "jackson.mitchell@example.com",
+    "phone": "+1 310 555 0417",
+    "status": "New",
+    "budget": "$0.9M - $1.5M",
+    "budgetMin": 950000,
+    "budgetMax": 1500000,
+    "source": "Website",
+    "propertyType": "Apartment",
+    "assignedTo": "Amina Yusuf",
+    "avatar": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "notes": "Wants ocean view and on-site fitness facilities.",
+    "createdAt": {
+      "$date": "2026-09-20T12:00:00.000Z"
+    }
   }
 ]

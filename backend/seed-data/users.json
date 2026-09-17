@@ -1,22 +1,28 @@
 [
   {
-    "name": "Admin User",
+    "name": "Arjun Malhotra",
     "email": "admin@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0100",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "admin",
     "isEmailVerified": true
   },
   {
-    "name": "Operations Manager",
+    "name": "Nisha Kapoor",
     "email": "manager@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0101",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "manager",
     "isEmailVerified": true
   },
   {
-    "name": "Senior Agent",
+    "name": "Sofia Bennett",
     "email": "senior.agent@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0102",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "senior-agent",
     "isEmailVerified": true
   },
@@ -24,27 +30,35 @@
     "name": "Jennifer Martinez",
     "email": "jennifer@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0103",
+    "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "agent",
     "isEmailVerified": true
   },
   {
-    "name": "Workspace Staff",
+    "name": "Priya Shah",
     "email": "staff@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0104",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "staff",
     "isEmailVerified": true
   },
   {
-    "name": "Read Only Viewer",
+    "name": "Evan Brooks",
     "email": "viewer@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0105",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "viewer",
     "isEmailVerified": true
   },
   {
-    "name": "Demo Customer",
+    "name": "Marcus Johnson",
     "email": "customer@realestate.com",
     "password": "password123",
+    "phone": "+1 310 555 0106",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "role": "customer",
     "isEmailVerified": true
   }

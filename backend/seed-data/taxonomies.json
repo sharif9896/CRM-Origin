@@ -3,7 +3,7 @@
     "name": "Villa",
     "icon": "icon-hotel",
     "badge": "bg-secondary",
-    "usedIn": 486,
+    "usedIn": 9,
     "status": "Active",
     "kind": "category"
   },
@@ -11,7 +11,7 @@
     "name": "Apartment",
     "icon": "icon-building-2",
     "badge": "bg-primary",
-    "usedIn": 912,
+    "usedIn": 4,
     "status": "Active",
     "kind": "category"
   },
@@ -19,7 +19,7 @@
     "name": "Penthouse",
     "icon": "icon-building",
     "badge": "bg-info",
-    "usedIn": 234,
+    "usedIn": 2,
     "status": "Active",
     "kind": "category"
   },
@@ -27,7 +27,7 @@
     "name": "Office",
     "icon": "icon-briefcase",
     "badge": "bg-orange",
-    "usedIn": 158,
+    "usedIn": 3,
     "status": "Active",
     "kind": "category"
   },
@@ -35,7 +35,7 @@
     "name": "Land",
     "icon": "icon-trees",
     "badge": "bg-teal",
-    "usedIn": 97,
+    "usedIn": 0,
     "status": "Inactive",
     "kind": "category"
   },
@@ -43,64 +43,78 @@
     "name": "Commercial",
     "icon": "icon-store",
     "badge": "bg-warning",
-    "usedIn": 143,
+    "usedIn": 3,
     "status": "Active",
     "kind": "category"
   },
   {
     "name": "Wi-Fi",
     "icon": "icon-wifi",
-    "usedIn": 1842,
+    "usedIn": 6,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Parking",
     "icon": "icon-car",
-    "usedIn": 2104,
+    "usedIn": 16,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Swimming Pool",
     "icon": "icon-waves",
-    "usedIn": 687,
+    "usedIn": 5,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Gym",
     "icon": "icon-dumbbell",
-    "usedIn": 914,
+    "usedIn": 5,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Security",
     "icon": "icon-shield-check",
-    "usedIn": 1556,
+    "usedIn": 10,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Garden",
     "icon": "icon-trees",
-    "usedIn": 742,
+    "usedIn": 7,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Air Conditioning",
     "icon": "icon-snowflake",
-    "usedIn": 1320,
+    "usedIn": 9,
     "status": "Active",
     "kind": "amenity"
   },
   {
     "name": "Elevator",
     "icon": "icon-arrow-up-down",
-    "usedIn": 498,
-    "status": "Inactive",
+    "usedIn": 8,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Smart Home",
+    "icon": "icon-house-plug",
+    "usedIn": 5,
+    "status": "Active",
+    "kind": "amenity"
+  },
+  {
+    "name": "Concierge",
+    "icon": "icon-bell",
+    "usedIn": 4,
+    "status": "Active",
     "kind": "amenity"
   }
 ]

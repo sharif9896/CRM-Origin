@@ -1,5 +1,5 @@
 /**
- * Exports the exact same demo dataset used by seed.js into plain .json files
+ * Exports the exact same realistic dataset used by seed.js into plain .json files
  * under backend/seed-data/, one file per collection. Useful if you'd rather
  * import with `mongoimport` or MongoDB Compass instead of running the seed
  * script directly.
@@ -61,9 +61,14 @@ const files = {
   "transactions.json": seedData.transactions,
   "reimbursements.json": seedData.reimbursements,
   "reimbursement-types.json": seedData.reimbursementTypes,
+  "audit-logs.json": seedData.auditLogs,
+  "workspace-settings.json": [seedData.organization],
   // notificationTemplates has no `user` id yet (that's assigned at seed time
   // against a real inserted user), so it's exported as-is for reference.
   "notifications.json": seedData.notificationTemplates,
+  // Chat participants are resolved from these emails to real User ObjectIds by
+  // seed.js, so this export is a readable template rather than a mongoimport file.
+  "chat-messages.json": seedData.chatTemplates,
 };
 
 for (const [filename, data] of Object.entries(files)) {

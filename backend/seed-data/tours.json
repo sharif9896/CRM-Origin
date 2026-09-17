@@ -1,50 +1,66 @@
 [
   {
-    "property": "Mariana High Apartments",
+    "property": "Pacific Crest Villa",
+    "location": "Malibu, CA",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=84",
+    "duration": "3:42",
+    "views": 2840,
+    "status": "Published"
+  },
+  {
+    "property": "Marina Sky Penthouse",
+    "location": "Marina del Rey, CA",
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=84",
+    "duration": "4:18",
+    "views": 2315,
+    "status": "Published"
+  },
+  {
+    "property": "Wilshire Executive Offices",
     "location": "Los Angeles, CA",
-    "image": "assets/img/dashboard/villa-img-1.jpg",
-    "duration": "3:24",
-    "views": 1284,
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=84",
+    "duration": "2:56",
+    "views": 1180,
     "status": "Published"
   },
   {
-    "property": "Skyline Residences",
-    "location": "Santa Monica, CA",
-    "image": "assets/img/dashboard/villa-img-2.jpg",
-    "duration": "4:10",
-    "views": 968,
+    "property": "Bel Air Modern Estate",
+    "location": "Bel Air, CA",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=84",
+    "duration": "5:21",
+    "views": 3950,
     "status": "Published"
   },
   {
-    "property": "The Grand Metropolitan",
-    "location": "Pasadena, CA",
-    "image": "assets/img/dashboard/villa-img-3.jpg",
-    "duration": "2:47",
-    "views": 742,
+    "property": "Hollywood Hills View House",
+    "location": "Hollywood Hills, CA",
+    "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=84",
+    "duration": "4:07",
+    "views": 2675,
     "status": "Published"
   },
   {
-    "property": "Oceanview Villa",
-    "location": "Beverly Hills, CA",
-    "image": "assets/img/dashboard/villa-img-4.jpg",
-    "duration": "5:32",
-    "views": 2140,
-    "status": "Published"
-  },
-  {
-    "property": "Hillcrest Manor",
-    "location": "Long Beach, CA",
-    "image": "assets/img/dashboard/villa-img-5.jpg",
-    "duration": "1:58",
-    "views": 386,
+    "property": "Culver Creative Campus",
+    "location": "Culver City, CA",
+    "image": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=84",
+    "duration": "3:33",
+    "views": 940,
     "status": "Draft"
   },
   {
-    "property": "Downtown Business Hub",
-    "location": "Malibu, CA",
-    "image": "assets/img/dashboard/villa-img-6.jpg",
-    "duration": "6:15",
-    "views": 1873,
+    "property": "Manhattan Beach Retreat",
+    "location": "Manhattan Beach, CA",
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=84",
+    "duration": "5:08",
+    "views": 3120,
+    "status": "Published"
+  },
+  {
+    "property": "Downtown Skyline Penthouse",
+    "location": "Downtown Los Angeles, CA",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=84",
+    "duration": "4:44",
+    "views": 1785,
     "status": "Published"
   }
 ]

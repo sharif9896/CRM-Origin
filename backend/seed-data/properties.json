@@ -1,236 +1,614 @@
 [
   {
-    "name": "Mariana High Apartments",
-    "location": "Los Angeles, CA",
-    "type": "Villa",
-    "price": 3512500,
-    "beds": 4,
-    "baths": 4,
-    "sqft": 1526,
-    "status": "For Sale",
-    "agent": "Jennifer Martinez",
-    "agentAvatar": "assets/img/avatar/avatar-12.jpg",
-    "image": "assets/img/dashboard/villa-img-1.jpg"
-  },
-  {
-    "name": "Sunset Manor",
-    "location": "Santa Monica, CA",
-    "type": "Villa",
-    "price": 2185000,
-    "beds": 5,
-    "baths": 3,
-    "sqft": 2140,
-    "status": "Pending",
-    "agent": "David Chen",
-    "agentAvatar": "assets/img/avatar/avatar-20.jpg",
-    "image": "assets/img/dashboard/villa-img-2.jpg"
-  },
-  {
-    "name": "Oakwood Apartment",
-    "location": "Pasadena, CA",
-    "type": "Apartment",
-    "price": 785000,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 980,
-    "status": "For Rent",
-    "agent": "Laura Bennett",
-    "agentAvatar": "assets/img/avatar/avatar-21.jpg",
-    "image": "assets/img/dashboard/villa-img-3.jpg"
-  },
-  {
-    "name": "Crestview Penthouse",
-    "location": "Beverly Hills, CA",
-    "type": "Penthouse",
-    "price": 5940000,
-    "beds": 4,
-    "baths": 5,
-    "sqft": 3200,
-    "status": "For Sale",
-    "agent": "Michael Reed",
-    "agentAvatar": "assets/img/avatar/avatar-22.jpg",
-    "image": "assets/img/dashboard/villa-img-4.jpg"
-  },
-  {
-    "name": "Harbour Point Studio",
-    "location": "Long Beach, CA",
-    "type": "Apartment",
-    "price": 412000,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 540,
-    "status": "Sold",
-    "agent": "Jennifer Martinez",
-    "agentAvatar": "assets/img/avatar/avatar-12.jpg",
-    "image": "assets/img/dashboard/villa-img-5.jpg"
-  },
-  {
-    "name": "Willow Creek Villa",
+    "name": "Pacific Crest Villa",
     "location": "Malibu, CA",
     "type": "Villa",
-    "price": 4275000,
+    "price": 4850000,
     "beds": 5,
-    "baths": 4,
-    "sqft": 2860,
-    "status": "For Sale",
-    "agent": "David Chen",
-    "agentAvatar": "assets/img/avatar/avatar-20.jpg",
-    "image": "assets/img/dashboard/villa-img-6.jpg"
-  },
-  {
-    "name": "Elm Street Residence",
-    "location": "Burbank, CA",
-    "type": "Villa",
-    "price": 968000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1420,
-    "status": "For Rent",
-    "agent": "Laura Bennett",
-    "agentAvatar": "assets/img/avatar/avatar-21.jpg",
-    "image": "assets/img/dashboard/villa-img-7.jpg"
-  },
-  {
-    "name": "Bayview Terrace",
-    "location": "San Diego, CA",
-    "type": "Apartment",
-    "price": 1150000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1310,
-    "status": "Sold",
-    "agent": "Michael Reed",
-    "agentAvatar": "assets/img/avatar/avatar-22.jpg",
-    "image": "assets/img/dashboard/villa-img-1.jpg"
-  },
-  {
-    "name": "Aspen Ridge Estate",
-    "location": "Glendale, CA",
-    "type": "Villa",
-    "price": 3890000,
-    "beds": 6,
     "baths": 5,
-    "sqft": 3450,
+    "garage": 3,
+    "sqft": 4380,
     "status": "For Sale",
-    "agent": "Jennifer Martinez",
-    "agentAvatar": "assets/img/avatar/avatar-12.jpg",
-    "image": "assets/img/dashboard/villa-img-2.jpg"
+    "availableFrom": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "amenities": [
+      "Swimming Pool",
+      "Ocean View",
+      "Smart Home",
+      "Security",
+      "Parking"
+    ],
+    "agent": "Sofia Bennett",
+    "ownerName": "Mason Property Holdings",
+    "ownerEmail": "owner.pacific@example.com",
+    "ownerWhatsapp": "+1 310 555 0200",
+    "description": "Contemporary coastal villa with a double-height living room, infinity pool, private cinema, and uninterrupted Pacific views.",
+    "agentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=84"
+    ]
   },
   {
-    "name": "Cedar Lane Loft",
-    "location": "Culver City, CA",
-    "type": "Apartment",
-    "price": 690000,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 870,
-    "status": "Pending",
-    "agent": "David Chen",
-    "agentAvatar": "assets/img/avatar/avatar-20.jpg",
-    "image": "assets/img/dashboard/villa-img-3.jpg"
-  },
-  {
-    "name": "Marina Bay Penthouse",
+    "name": "Marina Sky Penthouse",
     "location": "Marina del Rey, CA",
     "type": "Penthouse",
-    "price": 6350000,
+    "price": 3675000,
     "beds": 4,
     "baths": 4,
-    "sqft": 3680,
+    "garage": 2,
+    "sqft": 3210,
     "status": "For Sale",
-    "agent": "Laura Bennett",
-    "agentAvatar": "assets/img/avatar/avatar-21.jpg",
-    "image": "assets/img/dashboard/villa-img-4.jpg"
-  },
-  {
-    "name": "Rosewood Cottage",
-    "location": "Ventura, CA",
-    "type": "Villa",
-    "price": 545000,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 760,
-    "status": "For Rent",
-    "agent": "Michael Reed",
-    "agentAvatar": "assets/img/avatar/avatar-22.jpg",
-    "image": "assets/img/dashboard/villa-img-5.jpg"
-  },
-  {
-    "name": "Summit View Villa",
-    "location": "Calabasas, CA",
-    "type": "Villa",
-    "price": 4720000,
-    "beds": 5,
-    "baths": 5,
-    "sqft": 3120,
-    "status": "Sold",
+    "availableFrom": {
+      "$date": "2026-09-25T12:00:00.000Z"
+    },
+    "amenities": [
+      "Elevator",
+      "Concierge",
+      "Roof Deck",
+      "Gym",
+      "Parking"
+    ],
     "agent": "Jennifer Martinez",
-    "agentAvatar": "assets/img/avatar/avatar-12.jpg",
-    "image": "assets/img/dashboard/villa-img-6.jpg"
+    "ownerName": "Harborline Investments",
+    "ownerEmail": "owner.marina@example.com",
+    "ownerWhatsapp": "+1 310 555 0201",
+    "description": "Full-floor penthouse with wraparound marina views, private elevator entry, chef kitchen, and an expansive entertainment terrace.",
+    "agentAvatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=84"
+    ]
   },
   {
-    "name": "Lakeside Studio",
-    "location": "Irvine, CA",
-    "type": "Apartment",
-    "price": 378000,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 495,
-    "status": "For Rent",
-    "agent": "David Chen",
-    "agentAvatar": "assets/img/avatar/avatar-20.jpg",
-    "image": "assets/img/dashboard/villa-img-7.jpg"
-  },
-  {
-    "name": "Grand Oak Manor",
+    "name": "Oak & Laurel Residence",
     "location": "Pasadena, CA",
     "type": "Villa",
-    "price": 2860000,
-    "beds": 5,
-    "baths": 4,
-    "sqft": 2540,
+    "price": 2180000,
+    "beds": 4,
+    "baths": 3,
+    "garage": 2,
+    "sqft": 2860,
     "status": "Pending",
+    "availableFrom": {
+      "$date": "2026-11-15T12:00:00.000Z"
+    },
+    "amenities": [
+      "Garden",
+      "Fireplace",
+      "Guest House",
+      "Security",
+      "Parking"
+    ],
     "agent": "Laura Bennett",
-    "agentAvatar": "assets/img/avatar/avatar-21.jpg",
-    "image": "assets/img/dashboard/villa-img-1.jpg"
+    "ownerName": "Catherine Moore",
+    "ownerEmail": "catherine.moore@example.com",
+    "ownerWhatsapp": "+1 310 555 0202",
+    "description": "Restored character residence combining original millwork with a renovated kitchen, landscaped garden, and detached guest studio.",
+    "agentAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607688066-890987f18a86?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=84"
+    ]
   },
   {
-    "name": "Coral Heights",
-    "location": "Redondo Beach, CA",
-    "type": "Apartment",
-    "price": 925000,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1180,
-    "status": "For Sale",
-    "agent": "Michael Reed",
-    "agentAvatar": "assets/img/avatar/avatar-22.jpg",
-    "image": "assets/img/dashboard/villa-img-2.jpg"
-  },
-  {
-    "name": "Downtown Business Hub",
+    "name": "Wilshire Executive Offices",
     "location": "Los Angeles, CA",
     "type": "Office",
-    "price": 4180000,
+    "price": 5920000,
     "beds": 0,
-    "baths": 4,
-    "sqft": 5200,
+    "baths": 6,
+    "garage": 18,
+    "sqft": 11400,
     "status": "For Sale",
-    "agent": "Robert Sinclair",
-    "agentAvatar": "assets/img/avatar/avatar-24.jpg",
-    "image": "assets/img/dashboard/villa-img-3.jpg"
+    "availableFrom": {
+      "$date": "2026-12-01T12:00:00.000Z"
+    },
+    "amenities": [
+      "Reception",
+      "Boardroom",
+      "Elevator",
+      "Security",
+      "Parking"
+    ],
+    "agent": "David Chen",
+    "ownerName": "Wilshire Capital Partners",
+    "ownerEmail": "facilities@wilshirecapital.example",
+    "ownerWhatsapp": "+1 310 555 0203",
+    "description": "Turnkey Class A office floor with glass meeting suites, executive boardroom, secure access, and dedicated parking.",
+    "agentAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=84"
+    ]
   },
   {
-    "name": "Wilshire Corporate Suite",
-    "location": "Santa Monica, CA",
-    "type": "Office",
-    "price": 1960000,
-    "beds": 0,
+    "name": "Silver Lake Garden Loft",
+    "location": "Silver Lake, CA",
+    "type": "Apartment",
+    "price": 895000,
+    "beds": 2,
     "baths": 2,
-    "sqft": 2400,
+    "garage": 1,
+    "sqft": 1280,
+    "status": "For Sale",
+    "availableFrom": {
+      "$date": "2026-09-30T12:00:00.000Z"
+    },
+    "amenities": [
+      "Garden",
+      "Balcony",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "agent": "Amina Yusuf",
+    "ownerName": "Adrian Foster",
+    "ownerEmail": "adrian.foster@example.com",
+    "ownerWhatsapp": "+1 310 555 0204",
+    "description": "Light-filled loft with polished concrete floors, a private garden patio, custom storage, and walkable neighborhood access.",
+    "agentAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Bel Air Modern Estate",
+    "location": "Bel Air, CA",
+    "type": "Villa",
+    "price": 8250000,
+    "beds": 6,
+    "baths": 7,
+    "garage": 4,
+    "sqft": 7100,
+    "status": "For Sale",
+    "availableFrom": {
+      "$date": "2026-10-20T12:00:00.000Z"
+    },
+    "amenities": [
+      "Swimming Pool",
+      "Cinema",
+      "Wine Cellar",
+      "Gym",
+      "Smart Home",
+      "Security"
+    ],
+    "agent": "Michael Reed",
+    "ownerName": "Summit Residential Trust",
+    "ownerEmail": "owner.belair@example.com",
+    "ownerWhatsapp": "+1 310 555 0205",
+    "description": "Architect-designed estate featuring seamless indoor-outdoor rooms, a wellness suite, screening room, and resort pool terrace.",
+    "agentAvatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Arts District Live-Work Loft",
+    "location": "Downtown Los Angeles, CA",
+    "type": "Apartment",
+    "price": 675000,
+    "beds": 1,
+    "baths": 1,
+    "garage": 1,
+    "sqft": 1040,
     "status": "For Rent",
-    "agent": "Sara Lindgren",
-    "agentAvatar": "assets/img/avatar/avatar-27.jpg",
-    "image": "assets/img/dashboard/villa-img-4.jpg"
+    "availableFrom": {
+      "$date": "2026-10-05T12:00:00.000Z"
+    },
+    "amenities": [
+      "Wi-Fi",
+      "Elevator",
+      "Security",
+      "Parking",
+      "Pet Friendly"
+    ],
+    "agent": "Daniel Kim",
+    "ownerName": "DTLA Living Group",
+    "ownerEmail": "leasing@dtlaliving.example",
+    "ownerWhatsapp": "+1 310 555 0206",
+    "description": "Authentic warehouse conversion with tall ceilings, oversized windows, flexible studio space, and secure resident parking.",
+    "agentAvatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Santa Monica Courtyard Home",
+    "location": "Santa Monica, CA",
+    "type": "Villa",
+    "price": 2795000,
+    "beds": 4,
+    "baths": 4,
+    "garage": 2,
+    "sqft": 3025,
+    "status": "Sold",
+    "availableFrom": {
+      "$date": "2026-08-01T12:00:00.000Z"
+    },
+    "amenities": [
+      "Garden",
+      "Solar Power",
+      "Smart Home",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "agent": "Jennifer Martinez",
+    "ownerName": "Olivia Grant",
+    "ownerEmail": "olivia.grant@example.com",
+    "ownerWhatsapp": "+1 310 555 0207",
+    "description": "Warm modern home organized around a private courtyard, with sustainable finishes, flexible work space, and beach access nearby.",
+    "agentAvatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600607688066-890987f18a86?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600607688066-890987f18a86?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Hollywood Hills View House",
+    "location": "Hollywood Hills, CA",
+    "type": "Villa",
+    "price": 3980000,
+    "beds": 4,
+    "baths": 4,
+    "garage": 2,
+    "sqft": 3540,
+    "status": "For Sale",
+    "availableFrom": {
+      "$date": "2026-10-12T12:00:00.000Z"
+    },
+    "amenities": [
+      "City View",
+      "Swimming Pool",
+      "Fireplace",
+      "Smart Home",
+      "Security"
+    ],
+    "agent": "Sofia Bennett",
+    "ownerName": "Canyon View Properties",
+    "ownerEmail": "owner.hollywood@example.com",
+    "ownerWhatsapp": "+1 310 555 0208",
+    "description": "Hillside residence with panoramic city views, retractable glass walls, pool deck, media lounge, and a secluded primary suite.",
+    "agentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Beverly Grove Townhome",
+    "location": "Beverly Grove, CA",
+    "type": "Villa",
+    "price": 1895000,
+    "beds": 3,
+    "baths": 3,
+    "garage": 2,
+    "sqft": 2240,
+    "status": "Pending",
+    "availableFrom": {
+      "$date": "2026-11-01T12:00:00.000Z"
+    },
+    "amenities": [
+      "Roof Deck",
+      "Fireplace",
+      "Air Conditioning",
+      "Parking"
+    ],
+    "agent": "Laura Bennett",
+    "ownerName": "Beverly Grove Homes",
+    "ownerEmail": "sales@beverlygrove.example",
+    "ownerWhatsapp": "+1 310 555 0209",
+    "description": "Refined end-unit townhome with open-plan living, a private roof deck, direct garage access, and designer finishes.",
+    "agentAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Ocean Avenue Residence",
+    "location": "Santa Monica, CA",
+    "type": "Apartment",
+    "price": 1450000,
+    "beds": 3,
+    "baths": 2,
+    "garage": 2,
+    "sqft": 1810,
+    "status": "For Sale",
+    "availableFrom": {
+      "$date": "2026-09-27T12:00:00.000Z"
+    },
+    "amenities": [
+      "Ocean View",
+      "Concierge",
+      "Gym",
+      "Elevator",
+      "Parking"
+    ],
+    "agent": "Amina Yusuf",
+    "ownerName": "Ocean Avenue Residences",
+    "ownerEmail": "concierge@oceanavenue.example",
+    "ownerWhatsapp": "+1 310 555 0210",
+    "description": "Corner residence opposite Palisades Park with ocean-facing living areas, a renovated kitchen, concierge service, and two parking spaces.",
+    "agentAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Culver Creative Campus",
+    "location": "Culver City, CA",
+    "type": "Office",
+    "price": 7350000,
+    "beds": 0,
+    "baths": 8,
+    "garage": 26,
+    "sqft": 16800,
+    "status": "For Rent",
+    "availableFrom": {
+      "$date": "2026-12-15T12:00:00.000Z"
+    },
+    "amenities": [
+      "Reception",
+      "Courtyard",
+      "Boardroom",
+      "Bike Storage",
+      "Parking",
+      "Security"
+    ],
+    "agent": "David Chen",
+    "ownerName": "Westside Commercial LLC",
+    "ownerEmail": "leasing@westsidecommercial.example",
+    "ownerWhatsapp": "+1 310 555 0211",
+    "description": "Creative office campus with collaborative studios, landscaped courtyards, production rooms, and flexible full-building occupancy.",
+    "agentAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Manhattan Beach Retreat",
+    "location": "Manhattan Beach, CA",
+    "type": "Villa",
+    "price": 5425000,
+    "beds": 5,
+    "baths": 5,
+    "garage": 3,
+    "sqft": 4210,
+    "status": "Sold",
+    "availableFrom": {
+      "$date": "2026-07-10T12:00:00.000Z"
+    },
+    "amenities": [
+      "Ocean View",
+      "Roof Deck",
+      "Wine Cellar",
+      "Elevator",
+      "Parking"
+    ],
+    "agent": "Michael Reed",
+    "ownerName": "Strand Homes Inc.",
+    "ownerEmail": "owner.strand@example.com",
+    "ownerWhatsapp": "+1 310 555 0212",
+    "description": "Coastal retreat designed for entertaining with a rooftop kitchen, ocean-view great room, elevator, and temperature-controlled wine room.",
+    "agentAvatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Echo Park Terrace Apartment",
+    "location": "Echo Park, CA",
+    "type": "Apartment",
+    "price": 520000,
+    "beds": 2,
+    "baths": 1,
+    "garage": 1,
+    "sqft": 890,
+    "status": "For Rent",
+    "availableFrom": {
+      "$date": "2026-10-01T12:00:00.000Z"
+    },
+    "amenities": [
+      "Balcony",
+      "Wi-Fi",
+      "Air Conditioning",
+      "Parking",
+      "Pet Friendly"
+    ],
+    "agent": "Elena Rossi",
+    "ownerName": "Eastside Rental Partners",
+    "ownerEmail": "rentals@eastsidepartners.example",
+    "ownerWhatsapp": "+1 310 555 0213",
+    "description": "Updated two-bedroom apartment with a leafy terrace, efficient workspace, in-unit laundry, and quick access to the lake.",
+    "agentAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Century City Corner Suite",
+    "location": "Century City, CA",
+    "type": "Office",
+    "price": 3150000,
+    "beds": 0,
+    "baths": 4,
+    "garage": 12,
+    "sqft": 6800,
+    "status": "For Sale",
+    "availableFrom": {
+      "$date": "2026-11-20T12:00:00.000Z"
+    },
+    "amenities": [
+      "Reception",
+      "Boardroom",
+      "City View",
+      "Elevator",
+      "Security",
+      "Parking"
+    ],
+    "agent": "David Chen",
+    "ownerName": "Century Asset Management",
+    "ownerEmail": "assets@centuryam.example",
+    "ownerWhatsapp": "+1 310 555 0214",
+    "description": "High-floor corner office with skyline views, fourteen private offices, adaptable meeting space, and premium building services.",
+    "agentAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Venice Canal Bungalow",
+    "location": "Venice, CA",
+    "type": "Villa",
+    "price": 2485000,
+    "beds": 3,
+    "baths": 3,
+    "garage": 1,
+    "sqft": 1985,
+    "status": "For Sale",
+    "availableFrom": {
+      "$date": "2026-10-18T12:00:00.000Z"
+    },
+    "amenities": [
+      "Water View",
+      "Garden",
+      "Fireplace",
+      "Air Conditioning"
+    ],
+    "agent": "Jennifer Martinez",
+    "ownerName": "Canal House Trust",
+    "ownerEmail": "owner.canal@example.com",
+    "ownerWhatsapp": "+1 310 555 0215",
+    "description": "Private canal-side bungalow with a landscaped deck, bright living room, flexible guest suite, and easy beach access.",
+    "agentAvatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600607688066-890987f18a86?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Downtown Skyline Penthouse",
+    "location": "Downtown Los Angeles, CA",
+    "type": "Penthouse",
+    "price": 2890000,
+    "beds": 3,
+    "baths": 4,
+    "garage": 2,
+    "sqft": 2740,
+    "status": "Pending",
+    "availableFrom": {
+      "$date": "2026-10-30T12:00:00.000Z"
+    },
+    "amenities": [
+      "City View",
+      "Concierge",
+      "Gym",
+      "Swimming Pool",
+      "Elevator"
+    ],
+    "agent": "Sofia Bennett",
+    "ownerName": "Skyline Tower Holdings",
+    "ownerEmail": "residences@skylinetower.example",
+    "ownerWhatsapp": "+1 310 555 0216",
+    "description": "Sophisticated tower penthouse with dramatic skyline exposure, hotel-style amenities, private storage, and resident valet service.",
+    "agentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=84"
+    ]
+  },
+  {
+    "name": "Brentwood Family Residence",
+    "location": "Brentwood, CA",
+    "type": "Villa",
+    "price": 3295000,
+    "beds": 5,
+    "baths": 4,
+    "garage": 2,
+    "sqft": 3720,
+    "status": "Sold",
+    "availableFrom": {
+      "$date": "2026-06-15T12:00:00.000Z"
+    },
+    "amenities": [
+      "Garden",
+      "Guest House",
+      "Fireplace",
+      "Solar Power",
+      "Parking"
+    ],
+    "agent": "Laura Bennett",
+    "ownerName": "Richard Hayes",
+    "ownerEmail": "richard.hayes@example.com",
+    "ownerWhatsapp": "+1 310 555 0217",
+    "description": "Inviting family residence with generous living rooms, a detached studio, mature landscaping, and a quiet neighborhood setting.",
+    "agentAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=84",
+    "images": [
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=84",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=84"
+    ]
   }
 ]

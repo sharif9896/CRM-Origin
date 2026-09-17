@@ -1,0 +1,62 @@
+[
+  {
+    "actor": "Arjun Malhotra",
+    "action": "updated",
+    "resource": "roles",
+    "recordId": "manager",
+    "label": "Manager sidebar permissions",
+    "createdAt": {
+      "$date": "2026-09-16T12:00:00.000Z"
+    }
+  },
+  {
+    "actor": "Nisha Kapoor",
+    "action": "approved",
+    "resource": "reimbursements",
+    "recordId": "RMB-2026-1006",
+    "label": "Daily allowance claim",
+    "createdAt": {
+      "$date": "2026-09-15T12:00:00.000Z"
+    }
+  },
+  {
+    "actor": "Jennifer Martinez",
+    "action": "updated",
+    "resource": "deals",
+    "recordId": "Marina Sky Penthouse",
+    "label": "Moved deal to due diligence",
+    "createdAt": {
+      "$date": "2026-09-14T12:00:00.000Z"
+    }
+  },
+  {
+    "actor": "Priya Shah",
+    "action": "created",
+    "resource": "appointments",
+    "recordId": "Pacific Crest Villa",
+    "label": "Private property viewing",
+    "createdAt": {
+      "$date": "2026-09-13T12:00:00.000Z"
+    }
+  },
+  {
+    "actor": "Sofia Bennett",
+    "action": "created",
+    "resource": "leads",
+    "recordId": "Isabella Moore",
+    "label": "Luxury buyer lead",
+    "createdAt": {
+      "$date": "2026-09-12T12:00:00.000Z"
+    }
+  },
+  {
+    "actor": "Nisha Kapoor",
+    "action": "updated",
+    "resource": "properties",
+    "recordId": "Culver Creative Campus",
+    "label": "Commercial listing availability",
+    "createdAt": {
+      "$date": "2026-09-10T12:00:00.000Z"
+    }
+  }
+]

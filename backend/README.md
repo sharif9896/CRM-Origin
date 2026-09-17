@@ -61,7 +61,10 @@ backend/
     │   ├── ApiError.js
     │   └── sendEmail.js
     └── seed/
-        └── seed.js              # sample data importer
+        ├── dataset.js           # single source for realistic seed records
+        ├── seed.js              # database importer and relationship linker
+        ├── verify.js            # read-only seed integrity check
+        └── export-json.js       # generates seed-data/*.json
 ```
 
 ## 1. Install MongoDB
@@ -96,26 +99,39 @@ npm run dev        # starts with nodemon on http://localhost:5000
 
 Health check: `GET http://localhost:5000/api/v1/health`
 
-## 4. Seed the full demo dataset
+## 4. Seed the full CRM dataset
 
-The full demo dataset (matching the frontend's mock data exactly — 18 leads,
-18 properties, 12 agents, 16 customers, 12 deals, 12 invoices, 12 payments,
-10 appointments, 12 staff, 9 reviews, 14 taxonomies/amenities, 6 tours, 14
-transactions, 5 notifications, 2 users) can be loaded two ways:
+The realistic seed is the single data source for both the Mongoose importer and
+the checked-in JSON exports. It includes 18 properties with Unsplash covers and
+four-image galleries, seven role-based login accounts, profile images, and
+linked records across CRM, sales, finance, appointments, tours, reviews,
+reimbursements, notifications, chat, audit history, and workspace settings.
 
 **Option A — recommended: run the seed script**
 
 ```bash
-npm run seed            # inserts the full demo dataset into every collection
-npm run seed:destroy    # wipes all collections
+npm run seed            # fills empty collections and preserves existing records
+npm run seed:verify     # checks counts, galleries, and linked database records
+npm run seed:refresh    # clears CRM collections, then loads the current dataset
+npm run seed:destroy    # clears all CRM collections
 ```
 
-This creates two logins:
+`seed:refresh` and `seed:destroy` are destructive. Use them only for a
+development or staging database whose existing records can be removed.
+
+The seed creates these login accounts, all with password `password123`:
 
 ```
-Admin login  -> email: admin@realestate.com     / password: password123
-Agent login  -> email: jennifer@realestate.com  / password: password123
+admin         -> admin@realestate.com
+manager       -> manager@realestate.com
+senior-agent  -> senior.agent@realestate.com
+agent         -> jennifer@realestate.com
+staff         -> staff@realestate.com
+viewer        -> viewer@realestate.com
+customer      -> customer@realestate.com
 ```
+
+Change these passwords before exposing the application outside development.
 
 **Option B — import raw JSON files with `mongoimport` / Compass**
 
@@ -145,7 +161,7 @@ happens in a Mongoose pre-save hook, which a raw JSON import skips). Prefer
 `npm run seed` for the `users` collection — or hash the password yourself
 (bcrypt, 12 rounds) before importing `users.json` directly.
 
-If you ever change the seed data in `src/seed/seed.js` and want to
+If you ever change the seed data in `src/seed/dataset.js` and want to
 regenerate the JSON files, run:
 
 ```bash

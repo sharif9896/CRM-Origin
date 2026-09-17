@@ -1,0 +1,74 @@
+[
+  {
+    "senderEmail": "manager@realestate.com",
+    "recipientEmail": "senior.agent@realestate.com",
+    "text": "The Pacific Crest offer is approved for the next negotiation round.",
+    "createdAt": {
+      "$date": "2026-09-15T03:45:00.000Z"
+    },
+    "read": true
+  },
+  {
+    "senderEmail": "senior.agent@realestate.com",
+    "recipientEmail": "manager@realestate.com",
+    "text": "Thanks. I have sent the revised terms and updated the deal record.",
+    "createdAt": {
+      "$date": "2026-09-15T03:52:00.000Z"
+    },
+    "read": true
+  },
+  {
+    "senderEmail": "staff@realestate.com",
+    "recipientEmail": "jennifer@realestate.com",
+    "text": "The Marina Sky disclosure package is complete and in the shared file.",
+    "createdAt": {
+      "$date": "2026-09-16T08:40:00.000Z"
+    },
+    "read": true
+  },
+  {
+    "senderEmail": "jennifer@realestate.com",
+    "recipientEmail": "staff@realestate.com",
+    "text": "Perfect, I will review it before the client call this afternoon.",
+    "createdAt": {
+      "$date": "2026-09-16T08:48:00.000Z"
+    },
+    "read": true
+  },
+  {
+    "senderEmail": "admin@realestate.com",
+    "recipientEmail": "manager@realestate.com",
+    "text": "Please review the September reimbursement queue before payroll closes.",
+    "createdAt": {
+      "$date": "2026-09-17T03:05:00.000Z"
+    },
+    "read": false
+  },
+  {
+    "senderEmail": "manager@realestate.com",
+    "recipientEmail": "admin@realestate.com",
+    "text": "Understood. I will finish the approvals by 3 PM.",
+    "createdAt": {
+      "$date": "2026-09-17T03:11:00.000Z"
+    },
+    "read": false
+  },
+  {
+    "senderEmail": "senior.agent@realestate.com",
+    "recipientEmail": "jennifer@realestate.com",
+    "text": "Can you cover the Ocean Avenue open house on Saturday?",
+    "createdAt": {
+      "$date": "2026-09-17T04:35:00.000Z"
+    },
+    "read": false
+  },
+  {
+    "senderEmail": "jennifer@realestate.com",
+    "recipientEmail": "senior.agent@realestate.com",
+    "text": "Yes, I have reserved the time and will coordinate with the concierge.",
+    "createdAt": {
+      "$date": "2026-09-17T04:42:00.000Z"
+    },
+    "read": false
+  }
+]

@@ -1,146 +1,242 @@
 [
   {
-    "title": "Mariana Luxury Villa",
-    "price": "$850,000",
-    "value": 850000,
-    "stage": "New",
-    "agent": "Jennifer",
-    "avatar": "assets/img/avatar/avatar-02.jpg",
-    "customer": "Alexander Kenn",
+    "title": "Pacific Crest Villa",
+    "value": 4850000,
+    "price": "$4,850,000",
+    "stage": "Negotiation",
+    "agent": "Sofia Bennett",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "customer": "Marcus Johnson",
     "closeDate": {
-      "$date": "2026-08-12T00:00:00.000Z"
+      "$date": "2026-10-28T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-01-01T12:00:00.000Z"
     }
   },
   {
-    "title": "Sunset Beach House",
-    "price": "$725,000",
-    "value": 725000,
-    "stage": "New",
-    "agent": "Gabriella",
-    "avatar": "assets/img/avatar/avatar-03.jpg",
+    "title": "Marina Sky Penthouse",
+    "value": 3675000,
+    "price": "$3,675,000",
+    "stage": "Due Diligence",
+    "agent": "Jennifer Martinez",
+    "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Sarah Jenkins",
     "closeDate": {
-      "$date": "2026-08-19T00:00:00.000Z"
+      "$date": "2026-10-15T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-02-02T12:00:00.000Z"
     }
   },
   {
-    "title": "Downtown Penthouse",
-    "price": "$1.2M",
-    "value": 1200000,
-    "stage": "New",
-    "agent": "Christopher",
-    "avatar": "assets/img/avatar/avatar-04.jpg",
+    "title": "Oak & Laurel Residence",
+    "value": 2180000,
+    "price": "$2,180,000",
+    "stage": "Won",
+    "agent": "Laura Bennett",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Raj Patel",
     "closeDate": {
-      "$date": "2026-08-24T00:00:00.000Z"
+      "$date": "2026-02-24T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-03-03T12:00:00.000Z"
     }
   },
   {
-    "title": "Hillcrest Manor",
-    "price": "$2.1M",
-    "value": 2100000,
-    "stage": "Negotiation",
-    "agent": "Penelope",
-    "avatar": "assets/img/avatar/avatar-05.jpg",
+    "title": "Silver Lake Garden Loft",
+    "value": 895000,
+    "price": "$895,000",
+    "stage": "New",
+    "agent": "Amina Yusuf",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Emily Carter",
     "closeDate": {
-      "$date": "2026-08-02T00:00:00.000Z"
+      "$date": "2026-11-12T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-04-04T12:00:00.000Z"
     }
   },
   {
-    "title": "Riverside Plaza",
-    "price": "$1.5M",
-    "value": 1500000,
+    "title": "Bel Air Modern Estate",
+    "value": 8250000,
+    "price": "$8,250,000",
     "stage": "Negotiation",
-    "agent": "Daniel",
-    "avatar": "assets/img/avatar/avatar-06.jpg",
+    "agent": "Michael Reed",
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Victor Moreau",
     "closeDate": {
-      "$date": "2026-08-08T00:00:00.000Z"
+      "$date": "2026-12-08T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-05-05T12:00:00.000Z"
     }
   },
   {
-    "title": "Oceanview Estates",
-    "price": "$1.8M",
-    "value": 1800000,
-    "stage": "Negotiation",
-    "agent": "Olivia",
-    "avatar": "assets/img/avatar/avatar-07.jpg",
+    "title": "Ocean Avenue Residence",
+    "value": 1450000,
+    "price": "$1,450,000",
+    "stage": "New",
+    "agent": "Amina Yusuf",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Leila Hassan",
     "closeDate": {
-      "$date": "2026-08-15T00:00:00.000Z"
+      "$date": "2026-11-20T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-06-06T12:00:00.000Z"
     }
   },
   {
-    "title": "Palm Residency",
-    "price": "$2.5M",
-    "value": 2500000,
-    "stage": "Due Diligence",
-    "agent": "Jennifer",
-    "avatar": "assets/img/avatar/avatar-02.jpg",
-    "customer": "Kevin O'Brien",
-    "closeDate": {
-      "$date": "2026-07-29T00:00:00.000Z"
-    }
-  },
-  {
-    "title": "Urban Heights",
-    "price": "$3.2M",
-    "value": 3200000,
-    "stage": "Due Diligence",
-    "agent": "Gabriella",
-    "avatar": "assets/img/avatar/avatar-03.jpg",
+    "title": "Arts District Live-Work Loft",
+    "value": 675000,
+    "price": "$675,000",
+    "stage": "Won",
+    "agent": "Daniel Kim",
+    "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Yuki Sato",
     "closeDate": {
-      "$date": "2026-08-05T00:00:00.000Z"
+      "$date": "2026-03-18T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-07-07T12:00:00.000Z"
     }
   },
   {
-    "title": "Garden District",
-    "price": "$2.8M",
-    "value": 2800000,
+    "title": "Venice Canal Bungalow",
+    "value": 2485000,
+    "price": "$2,485,000",
     "stage": "Due Diligence",
-    "agent": "Christopher",
-    "avatar": "assets/img/avatar/avatar-04.jpg",
+    "agent": "Jennifer Martinez",
+    "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Miguel Santos",
     "closeDate": {
-      "$date": "2026-08-12T00:00:00.000Z"
+      "$date": "2026-10-07T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-08-08T12:00:00.000Z"
     }
   },
   {
-    "title": "Lakeside Villa",
-    "price": "$1.8M",
-    "value": 1800000,
-    "stage": "Won",
-    "agent": "Penelope",
-    "avatar": "assets/img/avatar/avatar-05.jpg",
+    "title": "Hollywood Hills View House",
+    "value": 3980000,
+    "price": "$3,980,000",
+    "stage": "Negotiation",
+    "agent": "Sofia Bennett",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Clara Hoffmann",
     "closeDate": {
-      "$date": "2026-07-11T00:00:00.000Z"
+      "$date": "2026-11-04T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-09-09T12:00:00.000Z"
     }
   },
   {
-    "title": "Heritage House",
-    "price": "$2.2M",
-    "value": 2200000,
+    "title": "Century City Corner Suite",
+    "value": 3150000,
+    "price": "$3,150,000",
     "stage": "Won",
-    "agent": "Daniel",
-    "avatar": "assets/img/avatar/avatar-06.jpg",
+    "agent": "David Chen",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Andre Silva",
     "closeDate": {
-      "$date": "2026-07-03T00:00:00.000Z"
+      "$date": "2026-05-22T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-01-10T12:00:00.000Z"
     }
   },
   {
-    "title": "Summit Estate",
-    "price": "$2M",
-    "value": 2000000,
+    "title": "Manhattan Beach Retreat",
+    "value": 5425000,
+    "price": "$5,425,000",
     "stage": "Won",
-    "agent": "Olivia",
-    "avatar": "assets/img/avatar/avatar-07.jpg",
+    "agent": "Michael Reed",
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
     "customer": "Nadia Rahman",
     "closeDate": {
-      "$date": "2026-06-27T00:00:00.000Z"
+      "$date": "2026-06-29T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-02-11T12:00:00.000Z"
+    }
+  },
+  {
+    "title": "Echo Park Terrace Apartment",
+    "value": 520000,
+    "price": "$520,000",
+    "stage": "New",
+    "agent": "Elena Rossi",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "customer": "Thomas Wright",
+    "closeDate": {
+      "$date": "2026-11-30T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-03-12T12:00:00.000Z"
+    }
+  },
+  {
+    "title": "Beverly Grove Townhome",
+    "value": 1895000,
+    "price": "$1,895,000",
+    "stage": "Due Diligence",
+    "agent": "Laura Bennett",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "customer": "Amelia Brooks",
+    "closeDate": {
+      "$date": "2026-10-19T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-04-13T12:00:00.000Z"
+    }
+  },
+  {
+    "title": "Culver Creative Campus",
+    "value": 7350000,
+    "price": "$7,350,000",
+    "stage": "Negotiation",
+    "agent": "David Chen",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "customer": "Kevin O'Brien",
+    "closeDate": {
+      "$date": "2026-12-18T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-05-14T12:00:00.000Z"
+    }
+  },
+  {
+    "title": "Downtown Skyline Penthouse",
+    "value": 2890000,
+    "price": "$2,890,000",
+    "stage": "New",
+    "agent": "Sofia Bennett",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "customer": "Fatima Noor",
+    "closeDate": {
+      "$date": "2026-12-02T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-06-15T12:00:00.000Z"
+    }
+  },
+  {
+    "title": "Brentwood Family Residence",
+    "value": 3295000,
+    "price": "$3,295,000",
+    "stage": "Won",
+    "agent": "Laura Bennett",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&crop=faces&w=480&h=480&q=86",
+    "customer": "Priya Venkat",
+    "closeDate": {
+      "$date": "2026-08-14T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2026-07-16T12:00:00.000Z"
     }
   }
 ]

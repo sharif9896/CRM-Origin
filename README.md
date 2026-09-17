@@ -8,7 +8,7 @@ Node 22+ and a running MongoDB instance are required.
 
 1. Install dependencies: `npm --prefix backend ci` and `npm --prefix frontend ci`.
 2. If you do not already have environment files, copy `backend/.env.example` to `backend/.env`. Set `MONGO_URI`, a long random `JWT_SECRET`, and `CLIENT_URL=http://localhost:5173`. Existing environment files are preserved.
-3. Optional, for a development database only: `npm --prefix backend run seed`. The seed adds any missing demo login accounts and skips populated business collections. Do not seed demo accounts into production.
+3. Optional, for a development or staging database: `npm --prefix backend run seed`. The seed adds missing login accounts and fills empty collections with the complete realistic CRM dataset. It skips populated business collections.
 4. From this folder, run `npm run dev`.
 5. Open http://localhost:5173. API health: http://localhost:5000/api/v1/health.
 
@@ -25,6 +25,8 @@ Development login accounts created by the seed:
 | Customer | `customer@realestate.com` | `password123` |
 
 Only administrators can create, edit, disable, delete, or assign roles to login accounts through **Staff → User Accounts**. Change all demo passwords before using the application outside local development.
+
+The seed includes 18 listings with Unsplash cover photos and four-image galleries, remote profile photos for users, agents, staff, leads, and customers, plus linked sales, finance, appointment, review, tour, reimbursement, notification, chat, audit, role, and workspace records. Run `npm --prefix backend run seed:verify` to verify the stored counts, galleries, and database relationships. For a development or staging database that already contains older sample records, `npm --prefix backend run seed:refresh` clears the CRM collections and loads the new dataset. `seed:refresh` is destructive, so do not run it against a live database that contains records you need to retain.
 
 On Windows PowerShell with script execution disabled, use `npm.cmd` instead of `npm`. If a frontend environment file already sets `VITE_API_BASE_URL`, that setting takes precedence over the development proxy.
 
@@ -54,6 +56,7 @@ The application is a single organization workspace. It does not implement isolat
 npm run build
 npm run lint
 npm test
+npm --prefix backend run seed:verify
 npx --prefix frontend playwright install chromium
 npm run test:browser
 ```
