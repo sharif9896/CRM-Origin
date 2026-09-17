@@ -3,6 +3,7 @@ const asyncHandler = require("../middleware/asyncHandler");
 const ApiError = require("../utils/ApiError");
 const User = require("../models/User");
 const sendEmail = require("../utils/sendEmail");
+const { resolveClientUrl } = require("../config/clientOrigins");
 
 // Helper: sign JWT, set it as an httpOnly cookie, and send the auth response
 const sendTokenResponse = (user, statusCode, res) => {
@@ -60,7 +61,7 @@ exports.register = asyncHandler(async (req, res) => {
   const verifyToken = user.getEmailVerifyToken();
   await user.save({ validateBeforeSave: false });
 
-  const verifyUrl = `${process.env.CLIENT_URL}/verify-email/${verifyToken}`;
+  const verifyUrl = `${resolveClientUrl(req)}/verify-email/${verifyToken}`;
   try {
     await sendEmail({
       to: user.email,
@@ -156,7 +157,7 @@ exports.forgotPassword = asyncHandler(async (req, res) => {
   const resetToken = user.getResetPasswordToken();
   await user.save({ validateBeforeSave: false });
 
-  const resetUrl = `${process.env.CLIENT_URL}/reset-password/${resetToken}`;
+  const resetUrl = `${resolveClientUrl(req)}/reset-password/${resetToken}`;
 
   try {
     await sendEmail({
@@ -239,7 +240,7 @@ exports.resendVerifyEmail = asyncHandler(async (req, res) => {
   const verifyToken = user.getEmailVerifyToken();
   await user.save({ validateBeforeSave: false });
 
-  const verifyUrl = `${process.env.CLIENT_URL}/verify-email/${verifyToken}`;
+  const verifyUrl = `${resolveClientUrl(req)}/verify-email/${verifyToken}`;
   await sendEmail({
     to: user.email,
     subject: "Verify your email",

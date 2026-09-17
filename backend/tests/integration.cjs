@@ -25,10 +25,13 @@ async function main() {
  const origin='http://127.0.0.1:'+server.address().port;
  const base=origin+'/api/v1';
  let token=admin.getSignedJwtToken();
- const call=async(path,method='GET',body,expected=200,auth=token)=>{
-  const res=await fetch(base+path,{method,headers:{'Content-Type':'application/json',...(auth?{Authorization:'Bearer '+auth}:{})},body:body===undefined?undefined:JSON.stringify(body)});
+ const call=async(path,method='GET',body,expected=200,auth=token,extraHeaders={})=>{
+  const res=await fetch(base+path,{method,headers:{'Content-Type':'application/json',...(auth?{Authorization:'Bearer '+auth}:{}),...extraHeaders},body:body===undefined?undefined:JSON.stringify(body)});
   const json=await res.json(); assert.equal(res.status,expected,method+' '+path+': '+JSON.stringify(json)); checks++; return json;
  };
+ const healthResponse=await fetch(base+'/health');const health=await healthResponse.json();assert.equal(healthResponse.status,200);assert.equal(health.success,true);checks+=2;
+ const rootResponse=await fetch(origin+'/');assert.equal(rootResponse.status,200);assert.match(await rootResponse.text(),/Welcome to the API/);checks+=2;
+ const preflight=await fetch(base+'/auth/login',{method:'OPTIONS',headers:{Origin:'https://socailsync.com','Access-Control-Request-Method':'POST','Access-Control-Request-Headers':'content-type'}});assert.equal(preflight.status,204);assert.equal(preflight.headers.get('access-control-allow-origin'),'https://socailsync.com');assert.equal(preflight.headers.get('access-control-allow-credentials'),'true');checks+=3;
  await call('/leads','GET',undefined,401,'');
  const me=await call('/auth/me');assert.equal(me.data.id,String(admin._id));assert.equal(me.data.password,undefined);
  const login=await call('/auth/login','POST',{email:'admin@test.local',password:'TestPassword123!'});assert.ok(login.token);
@@ -136,13 +139,15 @@ async function main() {
  await call('/auth/update-password','PUT',{currentPassword:'wrong',newPassword:'NewPassword123!'},401);
  await call('/auth/update-password','PUT',{currentPassword:'TestPassword123!',newPassword:'NewPassword123!'});
  for(const endpoint of ['summary','revenue-overview','activity-overview','property-status','property-categories','sales-pipeline','featured-listings','recent-activity'])await call('/dashboard/'+endpoint);
- const registered=await call('/auth/register','POST',{name:'Registered User',email:'register@test.local',password:'RegisterPassword123!',role:'admin'},201,'');
+ const registered=await call('/auth/register','POST',{name:'Registered User',email:'register@test.local',password:'RegisterPassword123!',role:'admin'},201,'',{Origin:'https://socailsync.com'});
  assert.equal(registered.user.role,'customer');
+ assert.match(lastEmail.text,/https:\/\/socailsync\.com\/verify-email\//);
  const customerAssistant=await call('/chat/assistant','POST',{text:'Help me find a rental'},201,registered.token);assert.equal(customerAssistant.data[1].assistant,true);assert.match(customerAssistant.data[1].text,/rent|lease|Properties/i);
  await call('/chat/contacts','GET',undefined,403,registered.token);
  const verification=lastEmail.text.match(/verify-email\/([a-f0-9]+)/)[1];
  await call('/auth/verify-email/'+verification,'GET',undefined,200,registered.token);
- await call('/auth/forgot-password','POST',{email:'register@test.local'},200,'');
+ await call('/auth/forgot-password','POST',{email:'register@test.local'},200,'',{Origin:'https://socailsync.com'});
+ assert.match(lastEmail.text,/https:\/\/socailsync\.com\/reset-password\//);
  const resetToken=lastEmail.text.match(/reset-password\/([a-f0-9]+)/)[1];
  await call('/auth/reset-password/'+resetToken,'PUT',{password:'ResetPassword123!'},200,'');
  await call('/auth/reset-password/'+resetToken,'PUT',{password:'AnotherPassword123!'},400,'');

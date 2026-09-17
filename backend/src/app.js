@@ -10,13 +10,32 @@ const rateLimit = require("express-rate-limit");
 const routes = require("./routes");
 const errorHandler = require("./middleware/errorHandler");
 const notFound = require("./middleware/notFound");
+const { allowedOrigins, normalizeOrigin } = require("./config/clientOrigins");
 
 const app = express();
 const path = require("path");
 
+// Hostinger terminates HTTPS before forwarding requests to Node. Trust the
+// first proxy so protocol detection, secure cookies, and rate limiting use the
+// visitor's connection details.
+app.set("trust proxy", 1);
+
+const corsOptions = {
+  origin(origin, callback) {
+    if (!origin || allowedOrigins.has(normalizeOrigin(origin))) {
+      return callback(null, true);
+    }
+    const error = new Error(`Origin ${origin} is not allowed by CORS`);
+    error.statusCode = 403;
+    return callback(error);
+  },
+  credentials: true,
+};
+
 // --- Security & parsing middleware ---
 app.use(
   helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
     contentSecurityPolicy: {
       directives: {
         imgSrc: ["'self'", "data:", "blob:", "https:"],
@@ -32,12 +51,7 @@ app.use(
     },
   }),
 );
-app.use(
-  cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
-    credentials: true,
-  }),
-);
+app.use(cors(corsOptions));
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -49,15 +63,10 @@ app.use(
     immutable: true,
   }),
 );
-app.use("/", (req, res) => {
-  res.send(
+app.get("/", (req, res) => {
+  res.status(200).type("html").send(
     `<h1>Welcome to the API</h1><p>Please use <a href="/api/v1">/api/v1</a> for API requests.</p>`,
   );
-  res
-    .status(200)
-    .json({
-      message: "Welcome to the API. Please use /api/v1 for API requests.",
-    });
 });
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));

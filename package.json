@@ -7,7 +7,7 @@
     "build": "npm --prefix frontend run build",
     "start": "npm --prefix backend start",
     "test": "npm --prefix backend test",
-    "test:browser": "npm run build && node backend/tests/browser.cjs",
+    "test:browser": "npm --prefix frontend run build:test && node backend/tests/browser.cjs",
     "lint": "npm --prefix frontend run lint"
   }
 }

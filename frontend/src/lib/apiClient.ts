@@ -7,8 +7,16 @@
  *   typed ApiError with the backend's message on failure.
  */
 
-export const API_BASE_URL: string =
-  (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "/api/v1";
+export const API_BASE_URL: string = (
+  (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "/api/v1"
+).replace(/\/+$/, "");
+
+export const resolveApiAssetUrl = (source: string): string => {
+  if (!source || /^(https?:|data:|blob:)/.test(source)) return source;
+  if (!/^\/?uploads\//.test(source)) return source;
+  const apiOrigin = new URL(API_BASE_URL, window.location.origin).origin;
+  return new URL(source.startsWith("/") ? source : `/${source}`, apiOrigin).toString();
+};
 
 export const AUTH_TOKEN_KEY = "crm_auth_token";
 

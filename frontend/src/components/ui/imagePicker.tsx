@@ -1,5 +1,6 @@
 import { useId, useState } from 'react';
 import { uploadImages } from '../../lib/api/uploads';
+import { resolveApiAssetUrl } from '../../lib/apiClient';
 
 type Props = {
   label: string;
@@ -11,7 +12,10 @@ type Props = {
   disabled?: boolean;
 };
 
-const previewSource = (value: string) => /^(https?:|data:|blob:|\/)/.test(value) ? value : `/${value}`;
+const previewSource = (value: string) => {
+  const resolved = resolveApiAssetUrl(value);
+  return /^(https?:|data:|blob:|\/)/.test(resolved) ? resolved : `/${resolved}`;
+};
 
 export default function ImagePicker({ label, resource, values, onChange, multiple = false, maxFiles = multiple ? 10 : 1, disabled = false }: Props) {
   const id = useId();
